@@ -1,0 +1,41 @@
+//Sticky footer
+html, body {
+    height: 100%;
+}
+#sb-site {
+    min-height: 100%;
+    margin-bottom: -80px;
+    &:after {
+        content: "";
+        display: block;
+        height: 80px;
+    }
+}
+footer {
+    height: 80px;
+    background: $nav-bg-color;
+    .navigation {
+        padding-left: 0;
+        margin: 0;
+        text-align: center;
+        display: block;
+        li {
+            @include transitionAll;
+            display: inline-block;
+            a {
+                display: inline-block;
+                @include transitionAll;
+                height: 100%;
+                line-height: 80px;
+                font-size: 16px;
+                text-decoration: none;
+                text-transform: lowercase;
+                color: black;
+                padding: 0 30px;
+            }
+            &:hover {
+                background: $nav-hover-link;
+            }
+        }
+    }
+}

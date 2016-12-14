@@ -1,0 +1,33 @@
+//Mixins
+@mixin respond($class) {
+    @if $class == xs {
+        @media (max-width: 767px) { @content; }
+    }
+
+    @else if $class == sm {
+        @media (min-width: 768px) { @content; }
+    }
+
+    @else if $class == md {
+        @media (min-width: 992px) { @content; }
+    }
+
+    @else if $class == lg {
+        @media (min-width: 1200px) { @content; }
+    }
+
+    @else {
+        @warn "Breakpoint mixin supports: xs, sm, md, lg";
+    }
+}
+
+@mixin transitionAll {
+    transition: all ease 0.4s;
+}
+
+//COLORS
+
+$nav-bg-color: rgba(0,0,0,0.2);
+$nav-hover-link: rgba(255,255,255,0.7);
+$header-home-color: rgba(0,0,0,0.2);
+$project-home-color: #373737;

@@ -1,0 +1,13 @@
+name: Finique
+version: 0.1.0
+description: Unique theme for finique website
+icon: rebel
+author:
+  name: Ihor Parkhomenko
+  email: gigor911@gmail.com
+homepage: https://github.com/ihor-parkhomenko/grav-theme-finique
+demo: http://demo.yoursite.com
+keywords: grav, theme, etc
+bugs: https://github.com/ihor-parkhomenko/grav-theme-finique/issues
+readme: https://github.com/ihor-parkhomenko/grav-theme-finique/blob/develop/README.md
+license: MIT

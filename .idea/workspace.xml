@@ -1,9 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4527f43-80b5-4e7f-a6b9-93196a965f4a" name="Default" comment="" />
+    <list default="true" id="f4527f43-80b5-4e7f-a6b9-93196a965f4a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/finique/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/finique/fonts/Bebas.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/finique/js/finique.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/finique/scss/finique.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/finique/scss/partials/_body.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/finique/scss/partials/_footer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/finique/scss/partials/_general.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/finique/scss/partials/_header.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/finique/scss/partials/_homePage.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/finique/templates/home.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/finique/templates/partials/base.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/finique/templates/partials/breadcrumbs.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/finique/templates/partials/footer.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/finique/templates/partials/navigation.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-localhost.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/073416f1f732f6f8508fd2169f4cba48.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0ae77ced75f20524b3c8f6157fddf816.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0ccba9c42d0da371469484a34634d2cd.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0d0167a7516c81734aec0ed68a2739cb.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0d797cb7b3dc38137f013a128e2df174.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0d940e22107eb67d692229e5f43633b0.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0e888526af4aa3f75d3186080cb892a8.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/12678e9452e739922c1c4880f9eed680.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/1468f5a738c4509c11ff6bf7c2188a91.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/157af4b7516f0223520e5e3c2fd8f61b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/1980dc65ec9561a1e9c5cdff9eb62864.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/19a02a936a2e544aab3e4ff9d13c89d6.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/1f50c3926921c00029911def5a69b201.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/2265d8a7b6abacdf71963691d1d36aea.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/25b0f82d0ee6369fcd785294d9384b1b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/2730f2f841fe35ceb728a7a3218205fa.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/2889ce115a9482084328b8340cde0432.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/2d0a0429a1f3bf3d8f9e3f2b0c889eb5.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/3012abba2cfe77b9ab68c77f1802c97f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/3324d09e8cd82a8c3101c456c3002fb8.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/36a5ecd3c279cb1d9bfa8e982a3eff25.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/37522b817bff5c11604191e72eda09f8.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/41c207a70b493261dd0159b2f3ebe721.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/4678c12160040924d5703b01dc22b29e.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/470cb14e682cab92cb201fe6b4ba0855.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/4a928bb1fcdb81610197ac5d1086855d.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/4c3e328a6dc38408c02cadc9fd9bd256.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/5305e9ca7ec646a1d36e71289da6b698.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/5662028a6d2a645987702d6ca94d3eff.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/58f230b9242cfd91eb08a65ba4237041.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/594d1577524205f7936e8b64572c47ce.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/60b8f78e5ac7eec2068ead668be95b99.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/6326084c4a92652eeeac6dcb2cc8fa17.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/6a61d576aad9f9e148a3c18a6ab27e3d.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/6a9dc8c743ab05185aef5b27696132a4.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/6f3a7ff0fbe500f2012b34c9ee7aa2d7.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/726a3ac65cd908bcfa3f24e1e49a9cd9.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/7442b979d4fbaf3d135ebcaeaab7a77b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/7545252be283448944f4107e702d0739.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/781a8b5a5885c5cccc5b85f444ea1eaf.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/7c8325046a6d451c2b543cb2ace8bf1b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/7cf1e3e7760531d76310b64c2e73fb6b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/7e897bd32952921a3014ebef3ea8aa0e.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/84f8a621164651a79114512dbbd6902a.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/8b83fc9fbed6b71f312dae0fdd1aea24.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/8f164eecd21f541ac16dd3aa8a54473e.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/91ce8af75d7a4db79bc7fa622d8b5753.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/922b0385c2d438923b21af0f9d152e15.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/93b4c4bcf88f4e4dc1c776df40f31790.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/96b503ba5d7f5c92623c2657e7dae75f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/996c77ab5d73219cbc26461530e89657.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/9acdacef71f5629c105e70bda2339596.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/9bad0d0b376ff8b48985fbe0adebf7d8.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/9d84a65a87e9970f040969272ff187b7.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/9e2dd896fa095e119a24a2ff88839f43.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/9f1c9dd9041911070eedfd8e14995649.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/9faa679eae580994f31e12e2a6a6f830.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a0fb546d6aa1556ba5f68186437d29a3.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a12a35edff7ef0efbeac2cc5c22d9556.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a2a67bedcd88c592ad26547626ebdec6.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a75df8687baebef08e7345b7bbdce0de.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a9995199f9ac64107aacdd51a443bfe2.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/abba59b3c0b17db01f42a4863224c70f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/b0cc29663a6431414a98bb1f82f70e17.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/b4cfc1d1cd2d816036df18b3d7bd7171.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/b8251f3c39c1890f9cdf6498b04414b2.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/bb56a43d8a54195280143d2d47676761.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/bce0d7f80c80b20bba9726cae45cdb22.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/bd482f1d01445ef381539e2723c91666.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/be25cd32e62a4846782b4cf4cf50768b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/bfbe6273422ac6f818c07eaeee38eda1.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/c20d74d2c23b0f987599b525c52cb175.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/c4b6e75dc6f30e3f9e1666ece96449a9.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/c6dd93abbb06c93cb8ce52355c6c132b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/c704bfb90b2d237c6e81f8bee0c1250b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/cc4cee36606ae8f9b3ed153358c6e8e0.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d1eab257d6cda0f66acbfc53ddc8a431.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d54f812fafbb54bf719719389cd12c50.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d5a249016693af39de13d7368d0bcb72.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/dbb1ed0ceeb40480225686eaea4b9af1.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/dca955086b0513a8e5089be6a12bdd83.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/e280b51593ab62445a8edaf253b13e5e.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/e33c2ebfcc05f6d846fbf790fac346b0.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/e6dba1daa73ad51a681933f3dd69ad3b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/e79267baf6135c5226c9e9b87fedf4ff.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/e879311a9f09e51ae188cfe4b6ea195d.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/f74894853e2d1d57a14c13459d7468c6.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/fec3b67faa6e276866395a572cf7e9f7.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/fed96e792ffee8976130e75af6390eea.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/languages/master-localhost.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/pages/01.home/default.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/files/062249916a5cedbb1957c8c4556718f0.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/062249916a5cedbb1957c8c4556718f0.yaml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/config/site.yaml" afterPath="$PROJECT_DIR$/user/config/site.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/config/system.yaml" afterPath="$PROJECT_DIR$/user/config/system.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/form/CHANGELOG.md" afterPath="$PROJECT_DIR$/user/plugins/form/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/form/blueprints.yaml" afterPath="$PROJECT_DIR$/user/plugins/form/blueprints.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/form/classes/form.php" afterPath="$PROJECT_DIR$/user/plugins/form/classes/form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/form/form.php" afterPath="$PROJECT_DIR$/user/plugins/form/form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/form/languages.yaml" afterPath="$PROJECT_DIR$/user/plugins/form/languages.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/default/form.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/forms/default/form.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/antimatter/css-compiled/nucleus.css" afterPath="$PROJECT_DIR$/user/themes/antimatter/css-compiled/nucleus.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/antimatter/css-compiled/particles.css" afterPath="$PROJECT_DIR$/user/themes/antimatter/css-compiled/particles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/antimatter/css-compiled/template.css" afterPath="$PROJECT_DIR$/user/themes/antimatter/css-compiled/template.css" />
+    </list>
     <ignored path="finique.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +142,131 @@
   <component name="FavoritesManager">
     <favorites_list name="finique" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="finique.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/finique.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/partials/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/antimatter/templates/error.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/antimatter/templates/default.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/finique/templates/home.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_homePage.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/partials/_homePage.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/partials/_footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_general.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/partials/_general.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/finique/templates/partials/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/user/themes/finique/css/normalize.css" />
+        <option value="$PROJECT_DIR$/user/themes/finique/templates/partials/navigation.html.twig" />
+        <option value="$PROJECT_DIR$/user/themes/finique/scss/partials/_mixins.scss" />
+        <option value="$PROJECT_DIR$/user/themes/finique/templates/partials/footer.html.twig" />
+        <option value="$PROJECT_DIR$/user/themes/finique/templates/partials/base.html.twig" />
+        <option value="$PROJECT_DIR$/user/themes/finique/scss/partials/_header.scss" />
+        <option value="$PROJECT_DIR$/user/themes/finique/templates/home.html.twig" />
+        <option value="$PROJECT_DIR$/user/themes/finique/scss/finique.scss" />
+        <option value="$PROJECT_DIR$/user/themes/finique/scss/partials/_footer.scss" />
+        <option value="$PROJECT_DIR$/user/themes/finique/scss/partials/_general.scss" />
+        <option value="$PROJECT_DIR$/user/themes/finique/scss/partials/_homePage.scss" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -29,11 +278,12 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="832" />
+    <option name="x" value="-1920" />
+    <option name="y" value="-158" />
+    <option name="width" value="1920" />
+    <option name="height" value="1058" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -78,6 +328,238 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antimatter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antimatter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -87,8 +569,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/destination-maternity" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user/themes/finique/fonts" />
+      <recent name="$PROJECT_DIR$/user/themes/finique/templates/partials" />
+      <recent name="$PROJECT_DIR$/user/themes/finique/css" />
+      <recent name="$PROJECT_DIR$/user/themes/finique/templates" />
+      <recent name="$PROJECT_DIR$/user/themes/finique" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -119,12 +612,172 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="$PROJECT_DIR$/../../../Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="$PROJECT_DIR$/../../../Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="finique" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
     <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
@@ -150,35 +803,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1481461255688</updated>
-      <workItem from="1481461256989" duration="333000" />
+      <workItem from="1481461256989" duration="7796000" />
+      <workItem from="1481483683094" duration="350000" />
+      <workItem from="1481557910396" duration="5117000" />
+      <workItem from="1481647374313" duration="865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333000" />
+    <option name="totallyTimeSpent" value="14128000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="832" extended-state="0" />
+    <frame x="-1920" y="-158" width="1920" height="1058" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19382322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Demandware" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Demandware" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.252588" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -197,5 +853,331 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/finique.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/partials/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/antimatter/templates/error.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/antimatter/templates/default.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/templates/home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/partials/_homePage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/partials/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/partials/_general.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/templates/partials/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/finique.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/partials/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/templates/partials/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/templates/partials/footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/js/finique.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/templates/partials/navigation.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/templates/partials/breadcrumbs.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/finique.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/vendor/bourbon/css3/_calc.scss" />
+    <entry file="file://$PROJECT_DIR$/user/themes/antimatter/templates/modular.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/antimatter/templates/partials/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/antimatter/js/antimatter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/antimatter/scss/template.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/antimatter/scss/nucleus.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/css/nucleus.css" />
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="438" column="0" selection-start-line="438" selection-start-column="0" selection-end-line="438" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/partials/_body.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/js/finique.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/templates/partials/breadcrumbs.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/templates/partials/navigation.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/templates/partials/footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/templates/partials/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/finique.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/antimatter/templates/error.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/antimatter/templates/default.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/partials/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/partials/_general.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/partials/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/templates/home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/finique/scss/partials/_homePage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

@@ -1,0 +1,71 @@
+.home-content-container {
+    width: 100%;
+    h2 {
+        color: $header-home-color;
+        font-size: 40px;
+        font-family: 'Bebas Neue Bold', sans-serif;
+        display: block;
+        padding: 60px 0 6px 100px;
+        margin: 0;
+        line-height: 1;
+    }
+    .home-row {
+        &> div > p {
+            margin: 0;
+        }
+        margin-bottom: 10px;
+        .image-50 {
+            width: calc(50vw - 5px);
+            height: 26vw;
+            float: left;
+            overflow: hidden;
+            &.right {
+                float: right;
+                height: 52vw;
+            }
+            &.last {
+                height: calc(26vw - 10px);
+                margin-top: 10px;
+            }
+            &:nth-child(1), &:nth-child(3) {
+                margin-right: 10px;
+            }
+        }
+        .image-100 {
+            width: 100vw;
+            height: 52vw;
+            overflow: hidden;
+        }
+        .image-100, .image-50 {
+            position: relative;
+            .project-title {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 5vw;
+                margin: 0;
+                opacity: 0;
+                color: $project-home-color;
+                @include transitionAll;
+            }
+            img {
+                max-width: 100%;
+                @include transitionAll;
+            }
+            &:hover {
+                img {
+                    opacity: 0.4;
+                }
+                .project-title {
+                    opacity: 1;
+                }
+            }
+        }
+        &:after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+    }
+}

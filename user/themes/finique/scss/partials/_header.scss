@@ -1,0 +1,78 @@
+#header {
+    height: 350px;
+    background: $nav-bg-color;
+    position: relative;
+    .navigation {
+        padding-left: 0;
+        margin: 0;
+        text-align: center;
+        display: block;
+        li {
+            @include transitionAll;
+            display: inline-block;
+            a {
+                display: inline-block;
+                @include transitionAll;
+                padding: 30px;
+                font-size: 16px;
+                text-decoration: none;
+                text-transform: lowercase;
+                color: black;
+            }
+            &:hover {
+                background: $nav-hover-link;
+            }
+        }
+    }
+    &.collapsed {
+
+    }
+}
+#logo {
+    padding-top: 60px;
+    text-align: center;
+    a {
+        font-size: 58px;
+        line-height: 1;
+        font-family: 'Bebas Neue Bold', sans-serif;
+        color: white;
+        text-decoration: none;
+        letter-spacing: 4px;
+    }
+    span {
+        display: block;
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1;
+    }
+}
+#social-links {
+    margin: 0;
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    li {
+        list-style: none;
+        display: inline-block;
+    }
+    a {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-size: contain;
+        &.fb-link {
+            background: url('../images/icon-fb.png') no-repeat center;
+        }
+        &.be-link {
+            background: url('../images/icon-be.png');
+        }
+        &.in-link {
+            background: url('../images/icon-in.png');
+        }
+        &.pi-link {
+            background: url('../images/icon-pi.png');
+        }
+    }
+}

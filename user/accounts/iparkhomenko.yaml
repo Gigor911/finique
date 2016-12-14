@@ -1,0 +1,11 @@
+email: gigor911@gmail.com
+fullname: 'Ihor Parkhomeko'
+title: Developer
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$OoBWuS3mi2S/1JzDnfTBVOm/88xL1TOD/NxPbJeiCHS3YlgNCFJO2
