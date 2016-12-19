@@ -1,0 +1,31 @@
+.content-left, .content-right {
+    width: 50%;
+    box-sizing: border-box;
+}
+.content-left {
+    float: left;
+    img {
+        display: block;
+        max-width: 100%;
+    }
+    padding-right: 15px;
+}
+.content-right {
+    padding-left: 15px;
+    float: right;
+    text-align: justify;
+    p {
+        &:first-child {
+            margin-top: 0;
+        }
+        font-weight: 300;
+        line-height: 1.5;
+    }
+}
+.project-title {
+    text-align: center;
+    h1 {
+        font-family: "Bebas Neue Bold", sans-serif;
+        font-size: 48px;
+    }
+}

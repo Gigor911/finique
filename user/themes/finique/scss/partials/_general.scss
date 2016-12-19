@@ -31,3 +31,11 @@ $nav-bg-color: rgba(0,0,0,0.2);
 $nav-hover-link: rgba(255,255,255,0.7);
 $header-home-color: rgba(0,0,0,0.2);
 $project-home-color: #373737;
+
+//Typography
+p, span, div, li {
+    font-family: 'Open Sans', sans-serif;
+}
+.clearfix {
+    clear: both;
+}

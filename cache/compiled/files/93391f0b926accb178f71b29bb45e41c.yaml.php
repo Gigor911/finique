@@ -2,11 +2,11 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://login/login.yaml',
-    'modified' => 1478495664,
+    'modified' => 1481745227,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
-        'route' => false,
+        'route' => NULL,
         'route_register' => false,
         'route_activate' => '/activate_user',
         'route_forgot' => '/forgot_password',

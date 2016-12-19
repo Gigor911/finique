@@ -5,7 +5,9 @@
     src: local('Bebas Neue Bold'), url('../fonts/Bebas.woff') format('woff');
 }
 @import "partials/general";
+@import "partials/owl";
 @import "partials/header";
 @import "partials/body";
 @import "partials/footer";
 @import "partials/homePage";
+@import "partials/projectPage";

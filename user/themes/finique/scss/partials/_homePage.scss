@@ -12,20 +12,24 @@
     .home-row {
         &> div > p {
             margin: 0;
+            font-size: 0;
         }
         margin-bottom: 10px;
         .image-50 {
             width: calc(50vw - 5px);
-            height: 26vw;
+            height: 25vw;
             float: left;
             overflow: hidden;
             &.right {
                 float: right;
-                height: 52vw;
+                height: 50vw;
+            }
+            &.first {
+                height: calc(25vw - 7px);
             }
             &.last {
-                height: calc(26vw - 10px);
                 margin-top: 10px;
+                height: calc(25vw - 7px);
             }
             &:nth-child(1), &:nth-child(3) {
                 margin-right: 10px;
@@ -33,7 +37,7 @@
         }
         .image-100 {
             width: 100vw;
-            height: 52vw;
+            height: 50vw;
             overflow: hidden;
         }
         .image-100, .image-50 {

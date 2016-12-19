@@ -8,6 +8,7 @@
     {% include 'partials/metadata.html.twig' %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
     {% block stylesheets %}
@@ -19,7 +20,8 @@
 
     {% block javascripts %}
         {% do assets.addJs('jquery', 101) %}
-        {% do assets.addJs('theme://js/modernizr.custom.71422.js', 100) %}
+        {% do assets.addJs('theme://js/owl.carousel.min.js', 100) %}
+        {% do assets.addJs('theme://js/finique.js', 100) %}
     {% endblock %}
     {{ assets.js() }}
 
@@ -48,10 +50,9 @@
         </header>
         {% endblock %}
 
-        {% block showcase %}{% endblock %}
-
         {% block body %}
         <section id="body" class="{{ class }}">
+            {% include 'partials/breadcrumbs.html.twig' %}
             {% block content %}{% endblock %}
         </section>
         {% endblock %}

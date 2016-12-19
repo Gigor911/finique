@@ -1,0 +1,19 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <div class="content-container">
+        <div class="project-title"><h1>{{page.title }}</h1></div>
+        <div class="content-left">
+            {{page.media.images|first }}
+        </div>
+        <div class="content-right">
+            {{ page.content }}
+        </div>
+        <div class="clearfix"></div>
+        <div id="project-images" class="owl-carousel owl-theme">
+            {% for image in page.media.images %}
+                <img class="owl-lazy" data-src="{{ image.url }}">
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
