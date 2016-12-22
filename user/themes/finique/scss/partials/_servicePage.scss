@@ -1,0 +1,34 @@
+.service-page {
+    .collapsable {
+        overflow: hidden;
+        box-sizing: border-box;
+        padding: 15px;
+        border: 1px solid $nav-bg-color;
+        margin-bottom: 40px;
+        h3 {
+            margin: 0;
+            padding: 15px;
+            background: $nav-bg-color;
+            cursor: pointer;
+            position: relative;
+            &:after {
+                @include transitionAll;
+                content: '\f078';
+                font-family: FontAwesome;
+                position: absolute;
+                top: 15px;
+                right: 20px;
+            }
+        }
+        p {
+            display: none;
+        }
+        &.active {
+            h3 {
+                &:after {
+                  transform: rotate(180deg);
+                }
+            }
+        }
+    }
+}

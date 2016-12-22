@@ -2,6 +2,7 @@
     height: 350px;
     background: $nav-bg-color;
     position: relative;
+    @include transitionAll;
     .navigation {
         padding-left: 0;
         margin: 0;
@@ -25,9 +26,34 @@
         }
     }
     &.collapsed {
-
+        #navbar {
+            @include transitionAll;
+            position: fixed;
+            top: 0;
+            height: 78px;
+            width: 100%;
+            z-index: 99;
+            background: $nav-bg-color;
+            .navigation {
+                a {
+                    color: white;
+                }
+                li:hover {
+                    background: $nav-hover-link-dark;
+                }
+            }
+        }
+        #social-links {
+            position: fixed;
+            z-index: 99;
+        }
+        #logo {
+            padding-top: 138px;
+        }
     }
+
 }
+
 #logo {
     padding-top: 60px;
     text-align: center;
@@ -47,6 +73,7 @@
         line-height: 1;
     }
 }
+
 #social-links {
     margin: 0;
     display: block;
@@ -74,5 +101,14 @@
         &.pi-link {
             background: url('../images/icon-pi.png');
         }
+    }
+}
+
+@keyframes logoAppear {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
     }
 }

@@ -5,11 +5,11 @@
     }
 
     @else if $class == sm {
-        @media (min-width: 768px) { @content; }
+        @media (min-width: 768px) and (max-width: 991px) { @content; }
     }
 
     @else if $class == md {
-        @media (min-width: 992px) { @content; }
+        @media (min-width: 992px) and (max-width: 1199px) { @content; }
     }
 
     @else if $class == lg {
@@ -29,12 +29,14 @@
 
 $nav-bg-color: rgba(0,0,0,0.2);
 $nav-hover-link: rgba(255,255,255,0.7);
+$nav-hover-link-dark: rgba(0,0,0,0.7);
 $header-home-color: rgba(0,0,0,0.2);
 $project-home-color: #373737;
 
 //Typography
 p, span, div, li {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 .clearfix {
     clear: both;
