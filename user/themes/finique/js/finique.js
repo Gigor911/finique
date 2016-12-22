@@ -8,7 +8,7 @@ $(document).ready(function () {
     lazyLoad:true
   });
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 1) {
+    if ($(this).scrollTop() > 1 && $('body').width() > 767) {
       $('#header').addClass("collapsed");
     }
     else{
@@ -18,5 +18,8 @@ $(document).ready(function () {
   $('.collapsable h3').click(function () {
     $(this).parent().toggleClass('active');
     $(this).siblings('p').toggle(300);
+  });
+  $('#mobile-menu-toggle').click(function () {
+      $('.navigation.top').toggle(300);
   })
 });

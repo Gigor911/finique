@@ -29,27 +29,7 @@
 </head>
 <body id="top" class="{{ page.header.body_classes }}">
     <div id="sb-site">
-        {% block header %}
-        <header id="header">
-            <div id="navbar">
-                {% block header_extra %}{% endblock %}
-                {% block header_navigation %}
-                {% include 'partials/navigation.html.twig' %}
-                {% endblock %}
-            </div>
-            <div id="logo">
-                <a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a>
-                <span>design  &  architecture</span>
-            </div>
-            <ul id="social-links">
-                <li><a class="fb-link" href="facebook.com"></a></li>
-                <li><a class="be-link" href="behance.com"></a></li>
-                <li><a class="pi-link" href="pinterest.com"></a></li>
-                <li><a class="in-link" href="instagram.com"></a></li>
-            </ul>
-        </header>
-        {% endblock %}
-
+        {% include 'partials/navigation.html.twig' %}
         {% block body %}
         <section id="body" class="{{ class }}">
             {% include 'partials/breadcrumbs.html.twig' %}

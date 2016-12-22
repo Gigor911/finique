@@ -1,12 +1,33 @@
-<ul class="navigation">
-    {% for page in pages.children.visible %}
-        {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
-        <li class="{{ current_page }}">
-            <a href="{{ page.url }}">
-                {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
-                {{ page.menu }}
-            </a>
-        </li>
-    {% endfor %}
-</ul>
-
+{% block header %}
+    <header id="header">
+        <div class="mobile-toggle">
+            <i id="mobile-menu-toggle" class="fa fa-bars"></i>
+        </div>
+        <div id="navbar">
+            {% block header_extra %}{% endblock %}
+            {% block header_navigation %}
+                <ul class="navigation top">
+                    {% for page in pages.children.visible %}
+                        {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
+                        <li class="{{ current_page }}">
+                            <a href="{{ page.url }}">
+                                {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
+                                {{ page.menu }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endblock %}
+        </div>
+        <div id="logo">
+            <a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a>
+            <span>design  &  architecture</span>
+        </div>
+        <ul id="social-links">
+            <li><a class="fb-link" href="facebook.com"></a></li>
+            <li><a class="be-link" href="behance.com"></a></li>
+            <li><a class="pi-link" href="pinterest.com"></a></li>
+            <li><a class="in-link" href="instagram.com"></a></li>
+        </ul>
+    </header>
+{% endblock %}

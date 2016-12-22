@@ -3,6 +3,9 @@
     background: $nav-bg-color;
     position: relative;
     @include transitionAll;
+    .fa.fa-bars {
+        display: none;
+    }
     .navigation {
         padding-left: 0;
         margin: 0;
@@ -51,7 +54,45 @@
             padding-top: 138px;
         }
     }
-
+    @include respond(xs) {
+        background: $nav-bg-color-mobile;
+        height: auto;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 99;
+        #logo {
+            display: none;
+        }
+        #social-links {
+            display: none;
+        }
+        .fa.fa-bars {
+            display: inline-block;
+            font-size: 24px;
+            padding: 10px;
+            border: 1px solid;
+            margin: 5px;
+        }
+        .mobile-toggle {
+            text-align: center;
+            background: $nav-bg-color;
+        }
+        .navigation {
+            display: none;
+            li {
+                display: block;
+                a {
+                    padding: 15px 0;
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
+        & + #body {
+            padding-top: 70px;
+        }
+    }
 }
 
 #logo {
@@ -106,9 +147,9 @@
 
 @keyframes logoAppear {
     from {
-        opacity: 0
+        opacity: 0;
     }
     to {
-        opacity: 1
+        opacity: 1;
     }
 }

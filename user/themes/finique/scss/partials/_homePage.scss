@@ -8,6 +8,11 @@
         padding: 60px 0 6px 100px;
         margin: 0;
         line-height: 1;
+        @include respond(xs) {
+            padding: 0;
+            display: block;
+            text-align: center;
+        }
     }
     .home-row {
         &> div > p {

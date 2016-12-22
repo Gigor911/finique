@@ -39,3 +39,18 @@ footer {
         }
     }
 }
+@include respond(xs) {
+    footer {
+        height: 220px;
+        .navigation {
+            li {
+                display: block;
+                a {
+                    display: block;
+                    padding: 10px 0;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}
