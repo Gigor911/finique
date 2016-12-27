@@ -21,7 +21,7 @@
         <div class="clearfix"></div>
         <div id="project-images" class="owl-carousel owl-theme">
             {% for image in page.media.images %}
-                <img class="owl-lazy" data-src="{{ image.url }}">
+                <img class="owl-lazy" data-src="{{ image.resize(1170).url }}">
             {% endfor %}
         </div>
 
