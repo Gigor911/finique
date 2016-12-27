@@ -18,12 +18,7 @@
     {% endblock %}
     {{ assets.css() }}
 
-    {% block javascripts %}
-        {% do assets.addJs('jquery', 101) %}
-        {% do assets.addJs('theme://js/owl.carousel.min.js', 100) %}
-        {% do assets.addJs('theme://js/finique.js', 100) %}
-    {% endblock %}
-    {{ assets.js() }}
+
 
 {% endblock head %}
 </head>
@@ -41,6 +36,12 @@
         {% include 'partials/footer.html.twig' %}
     {% endblock %}
     {% block bottom %}
+        {% block javascripts %}
+            {% do assets.addJs('jquery', {'priority' : 102, 'loading':'defer'}) %}
+            {% do assets.addJs('theme://js/owl.carousel.min.js', {'priority' : 101, 'loading':'defer'}) %}
+            {% do assets.addJs('theme://js/finique.js', {'priority' : 100, 'loading':'defer'}) %}
+        {% endblock %}
+        {{ assets.js() }}
         {{ assets.js('bottom') }}
     {% endblock %}
 </body>
