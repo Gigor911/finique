@@ -17,6 +17,9 @@
         }
     }
     .home-row {
+        @include respond(xs) {
+            margin-bottom: 0;
+        }
         &> div > p {
             margin: 0;
             font-size: 0;
@@ -48,6 +51,14 @@
             overflow: hidden;
         }
         .image-100, .image-50 {
+            @include respond(xs) {
+                width: 100%!important;
+                height: auto!important;
+                margin-top: 0!important;
+                margin-right: 0;
+                margin-bottom: 10px;
+
+            }
             position: relative;
             .project-title {
                 position: absolute;
