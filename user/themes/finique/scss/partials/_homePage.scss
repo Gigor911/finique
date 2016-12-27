@@ -1,5 +1,7 @@
 .home-content-container {
     width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
     h2 {
         color: $header-home-color;
         font-size: 40px;
@@ -21,28 +23,28 @@
         }
         margin-bottom: 10px;
         .image-50 {
-            width: calc(50vw - 5px);
-            height: 25vw;
+            width: calc((100vw - (100vw - 100%)) / 2 - 5px);
+            height: calc(100vw - (100vw - 100%));
             float: left;
             overflow: hidden;
             &.right {
                 float: right;
-                height: 50vw;
+                height: calc(100vw - (100vw - 100%));
             }
             &.first {
-                height: calc(25vw - 7px);
+                height: calc((100vw - (100vw - 100%)) / 4 - 7px);
             }
             &.last {
                 margin-top: 10px;
-                height: calc(25vw - 7px);
+                height: calc((100vw - (100vw - 100%)) / 4 - 7px);
             }
             &:nth-child(1), &:nth-child(3) {
                 margin-right: 10px;
             }
         }
         .image-100 {
-            width: 100vw;
-            height: 50vw;
+            width: calc(100vw - (100vw - 100%));
+            height: calc(100vw - (100vw - 100%));
             overflow: hidden;
         }
         .image-100, .image-50 {

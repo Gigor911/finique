@@ -46,7 +46,10 @@ gulp.task('prod-sass', function () {
 
 gulp.task('images', function () {
   gulp.src('./user/pages/**/*')
-    .pipe(imagemin())
+    .pipe(imagemin({
+      optimizationLevel: 7,
+      progressive: true,
+      interlaced: true}))
     .pipe(gulp.dest('./user/pages/'))
 });
 

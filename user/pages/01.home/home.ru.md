@@ -24,7 +24,7 @@ title: Finique
     <div class="image-50 right" markdown="1">[![](interior_05.jpg?resize=960)](../interer) 
     <h3 class="project-title">UDG</h3> 
     </div>
-   	<div class="image-50 last" markdown="1">[![](interior_06.jpg?resize=960)](../interer)
+   	<div class="image-50 last" markdown="1">[![](interior_06.jpg?forceResize=960,470)](../interer)
     <h3 class="project-title">UDG</h3> 
     </div>
 </div>
