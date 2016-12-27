@@ -2,30 +2,115 @@
     width: 50%;
     box-sizing: border-box;
 }
-.content-left {
-    float: left;
-    img {
-        display: block;
-        max-width: 100%;
-    }
-    padding-right: 15px;
-}
-.content-right {
-    padding-left: 15px;
-    float: right;
-    text-align: justify;
-    p {
-        &:first-child {
-            margin-top: 0;
+.content-container.project {
+    .project-title {
+        text-align: center;
+        position: relative;
+        h1 {
+            font-family: "Bebas Neue Bold", sans-serif;
+            font-size: 48px;
         }
-        font-weight: 300;
-        line-height: 1.5;
+        &:hover {
+            .arrow-right, .arrow-left {
+                opacity: 1;
+            }
+        }
+        .arrow-right, .arrow-left {
+            @include transitionAll;
+            &:hover {
+                border-right-color: $nav-hover-link-dark;
+                border-left-color: $nav-hover-link-dark;
+            }
+        }
+        .arrow-right {
+            opacity: 0;
+            display: block;
+            font-size: 0;
+            width: 0;
+            height: 0;
+            border-top: 15px solid transparent;
+            border-bottom: 15px solid transparent;
+            border-left: 15px solid $nav-bg-color;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+        }
+        .arrow-left {
+            opacity: 0;
+            display: block;
+            font-size: 0;
+            width: 0;
+            height: 0;
+            border-top: 15px solid transparent;
+            border-bottom: 15px solid transparent;
+            border-right:15px solid $nav-bg-color;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
     }
-}
-.project-title {
-    text-align: center;
-    h1 {
-        font-family: "Bebas Neue Bold", sans-serif;
-        font-size: 48px;
+    #project-images {
+        max-height: 650px;
+        padding-bottom: 40px;
+        overflow: hidden;
+        .owl-item img {
+            max-height: 650px;
+            width: auto;
+            margin: 0 auto;
+        }
+        &:hover {
+            .owl-nav {
+                opacity: 1;
+            }
+        }
+        .owl-nav {
+            @include transitionAll;
+            opacity: 0;
+            width: 100%;
+            position: absolute;
+            top: calc(50% - 60px);
+        }
+        .owl-prev, .owl-next {
+            @include transitionAll;
+            &:hover {
+                border-right-color: $nav-hover-link-dark;
+                border-left-color: $nav-hover-link-dark;
+            }
+        }
+        .owl-prev {
+            position: absolute;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-top: 40px solid transparent;
+            border-bottom: 40px solid transparent;
+            border-right: 40px solid $nav-bg-color;
+            background: none;
+            padding: 0;
+        }
+        .owl-next {
+            position: absolute;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-top: 40px solid transparent;
+            border-bottom: 40px solid transparent;
+            border-left: 40px solid $nav-bg-color;
+            background: none;
+            padding: 0;
+        }
+        .owl-dots {
+            margin-top: 10px;
+        }
     }
+
+    .right-50 {
+        width: 50%;
+        float: right;
+        text-align: left;
+        line-height: 1.3;
+    }
+
 }

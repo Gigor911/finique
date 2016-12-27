@@ -1,12 +1,21 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-    <div class="content-container">
-        <div class="project-title"><h1>{{page.title}}</h1></div>
-        <div class="content-left">
-            {{page.media.images|first }}
+    <div class="content-container project">
+        <div class="project-title">
+            {% if page.parent().children().nextSibling(page.path).url %}
+                <a class="arrow-left" title="Go to: {{ page.parent().children().nextSibling(page.path).title}}" href="{{ page.parent().children().nextSibling(page.path).url }}"> prev </a>
+            {% else %}
+                <a class="arrow-left" title="Go to: {{page.parent.children.nth( page.parent.children.count()- 1 ).title}}"  href="{{page.parent.children.nth( page.parent.children.count()- 1 ).url}}"> prev </a>
+            {% endif %}
+            <h1>{{page.title}}</h1>
+            {% if page.parent().children().prevSibling(page.path).url %}
+                <a class="arrow-right" title="Go to: {{ page.parent().children().prevSibling(page.path).title}}" href="{{ page.parent().children().prevSibling(page.path).url }}"> next </a>
+            {% else %}
+                <a class="arrow-right" title="Go to: {{page.parent().children.nth( 0 ).title}}" href="{{page.parent().children.nth( 0 ).url}}"> next </a>
+            {% endif %}
         </div>
-        <div class="content-right">
+        <div class="right-50">
             {{ page.content }}
         </div>
         <div class="clearfix"></div>
@@ -15,5 +24,6 @@
                 <img class="owl-lazy" data-src="{{ image.url }}">
             {% endfor %}
         </div>
+
     </div>
 {% endblock %}

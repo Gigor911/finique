@@ -1,11 +1,12 @@
 $(document).ready(function () {
   $('#project-images').owlCarousel({
     loop:true,
-    margin:10,
-    nav:true,
+    nav: true,
+    navText: [],
     items: 1,
-    autoHeight: true,
-    lazyLoad:true
+    lazyLoad: true,
+    center: true
+
   });
   $(window).scroll(function() {
     if ($(this).scrollTop() > 1 && $('body').width() > 767) {
