@@ -8,7 +8,6 @@
     {% include 'partials/metadata.html.twig' %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
     {% block stylesheets %}
@@ -23,6 +22,9 @@
 {% endblock head %}
 </head>
 <body id="top" class="{{ page.header.body_classes }}">
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+</style>
     <div id="sb-site">
         {% include 'partials/navigation.html.twig' %}
         {% block body %}
