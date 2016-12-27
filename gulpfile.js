@@ -2,10 +2,10 @@
 
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-// var sourcemaps = require('gulp-sourcemaps');
 var minify = require('gulp-minify-css');
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
+var imagemin = require('gulp-imagemin');
 
 
 
@@ -43,6 +43,13 @@ gulp.task('prod-sass', function () {
     .pipe(minify({compatibility: 'ie8'}))
     .pipe(gulp.dest('./user/themes/finique/css'))
 });
+
+gulp.task('images', function () {
+  gulp.src('./user/pages/**/*')
+    .pipe(imagemin())
+    .pipe(gulp.dest('./user/pages/'))
+});
+
 gulp.task('watch', function () {
   gulp.watch('./user/themes/finique/scss/**/*.scss', ['dev-sass']);
 });
