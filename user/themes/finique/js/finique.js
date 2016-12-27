@@ -1,11 +1,23 @@
 $(document).ready(function () {
   $('#project-images').owlCarousel({
-    loop:true,
-    nav: true,
-    navText: [],
-    items: 1,
-    lazyLoad: true,
-    center: true
+    responsive: {
+      0: {
+        items:1,
+        loop:true,
+        nav: true,
+        navText: [],
+        lazyLoad: true,
+        autoHeight: true
+      },
+      768: {
+        items:1,
+        loop:true,
+        nav: true,
+        navText: [],
+        lazyLoad: true,
+        autoHeight: false
+      }
+    }
 
   });
   $(window).scroll(function() {
