@@ -70,6 +70,16 @@
                 opacity: 0;
                 color: $project-home-color;
                 @include transitionAll;
+                @include respond(xs) {
+                    transform: translate(0,0);
+                    opacity: 1;
+                    color: white;
+                    bottom: 0;
+                    left: 0;
+                    top: auto;
+                    padding: 10px;
+                    background: $nav-bg-color;
+                }
             }
             img {
                 max-width: 100%;
@@ -78,6 +88,9 @@
             &:hover {
                 img {
                     opacity: 0.4;
+                    @include respond(xs) {
+                        opacity: 1;
+                    }
                 }
                 .project-title {
                     opacity: 1;
