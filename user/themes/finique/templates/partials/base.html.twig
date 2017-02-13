@@ -22,11 +22,13 @@
 {% endblock head %}
 </head>
 <body id="top" class="{{ page.header.body_classes }}">
+    <div id="hellopreloader">
+        <div id="hellopreloader_preload"></div>
+    </div>
     <div id="sb-site">
         {% include 'partials/navigation.html.twig' %}
         {% block body %}
         <section id="body" class="{{ class }}">
-            {% include 'partials/breadcrumbs.html.twig' %}
             {% block content %}{% endblock %}
         </section>
         {% endblock %}
@@ -46,5 +48,6 @@
         {{ assets.js() }}
         {{ assets.js('bottom') }}
     {% endblock %}
+
 </body>
 </html>

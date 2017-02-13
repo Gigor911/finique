@@ -4,38 +4,94 @@ html, body {
 }
 #sb-site {
     min-height: 100%;
-    margin-bottom: -78px;
+    margin-bottom: -130px;
     &:after {
         content: "";
         display: block;
-        height: 78px;
+        height: 130px;
     }
 }
 footer {
-    height: 78px;
+    position: relative;
+    height: 110px;
+    padding: 10px 5%;
     background: $nav-bg-color;
-    .navigation {
+    ul {
         padding-left: 0;
         margin: 0;
-        text-align: center;
-        display: block;
+        list-style: none;
         li {
-            @include transitionAll;
-            display: inline-block;
+            font-size: 14px;
             a {
-                display: inline-block;
                 @include transitionAll;
-                height: 100%;
-                line-height: 78px;
-                font-size: 16px;
+                font-size: 14px;
                 text-decoration: none;
                 text-transform: lowercase;
                 color: black;
-                padding: 0 30px;
+                padding: 5px;
+                display: block;
+                &:hover {
+                    color: $nav-hover-link;
+                }
             }
+
+        }
+    }
+    .footer-left {
+        float: left;
+    }
+    .footer-right {
+        float: right;
+        text-align: right;
+        li {
+            padding: 5px;
+        }
+        a {
+            display: inline;
+        }
+    }
+    .social-icons {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        a {
+            @include transitionAll();
+        }
+        .contact-button {
+            width: 300px;
+            margin-bottom: 15px;
+            a {
+                color: white;
+                text-align: center;
+                display: block;
+                padding: 15px;
+                background: $nav-bg-color;
+                text-decoration: none;
+                &:hover {
+                    background: $nav-bg-color-mobile;
+                    color: $nav-hover-link-dark;
+                }
+            }
+        }
+        a:not(.contact-button-link)  {
+            color: white;
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: $nav-bg-color;
+            text-align: center;
+            line-height: 30px;
             &:hover {
-                background: $nav-hover-link;
+                background: $nav-bg-color-mobile;
+                color: $nav-hover-link-dark;
             }
+            i:after {
+                font-size: 24px;
+            }
+
         }
     }
 }

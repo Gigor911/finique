@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitc8652957a277dc1464025db6ba78b7f0
+class ComposerStaticInit6da06b03918c707743e9e7a507c6ded9
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -528,6 +528,8 @@ class ComposerStaticInitc8652957a277dc1464025db6ba78b7f0
         'MatthiasMullie\\Minify\\JS' => __DIR__ . '/..' . '/matthiasmullie/minify/src/JS.php',
         'MatthiasMullie\\Minify\\Minify' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Minify.php',
         'MatthiasMullie\\PathConverter\\Converter' => __DIR__ . '/..' . '/matthiasmullie/path-converter/src/Converter.php',
+        'MatthiasMullie\\PathConverter\\ConverterInterface' => __DIR__ . '/..' . '/matthiasmullie/path-converter/src/ConverterInterface.php',
+        'MatthiasMullie\\PathConverter\\NoConverter' => __DIR__ . '/..' . '/matthiasmullie/path-converter/src/NoConverter.php',
         'Monolog\\ErrorHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/ErrorHandler.php',
         'Monolog\\Formatter\\ChromePHPFormatter' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php',
         'Monolog\\Formatter\\ElasticaFormatter' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Formatter/ElasticaFormatter.php',
@@ -848,6 +850,7 @@ class ComposerStaticInitc8652957a277dc1464025db6ba78b7f0
         'Twig_Extension_Sandbox' => __DIR__ . '/..' . '/twig/twig/lib/Twig/Extension/Sandbox.php',
         'Twig_Extension_Staging' => __DIR__ . '/..' . '/twig/twig/lib/Twig/Extension/Staging.php',
         'Twig_Extension_StringLoader' => __DIR__ . '/..' . '/twig/twig/lib/Twig/Extension/StringLoader.php',
+        'Twig_FactoryRuntimeLoader' => __DIR__ . '/..' . '/twig/twig/lib/Twig/FactoryRuntimeLoader.php',
         'Twig_FileExtensionEscapingStrategy' => __DIR__ . '/..' . '/twig/twig/lib/Twig/FileExtensionEscapingStrategy.php',
         'Twig_Filter' => __DIR__ . '/..' . '/twig/twig/lib/Twig/Filter.php',
         'Twig_FilterCallableInterface' => __DIR__ . '/..' . '/twig/twig/lib/Twig/FilterCallableInterface.php',
@@ -870,6 +873,7 @@ class ComposerStaticInitc8652957a277dc1464025db6ba78b7f0
         'Twig_Loader_String' => __DIR__ . '/..' . '/twig/twig/lib/Twig/Loader/String.php',
         'Twig_Markup' => __DIR__ . '/..' . '/twig/twig/lib/Twig/Markup.php',
         'Twig_Node' => __DIR__ . '/..' . '/twig/twig/lib/Twig/Node.php',
+        'Twig_NodeCaptureInterface' => __DIR__ . '/..' . '/twig/twig/lib/Twig/NodeCaptureInterface.php',
         'Twig_NodeInterface' => __DIR__ . '/..' . '/twig/twig/lib/Twig/NodeInterface.php',
         'Twig_NodeOutputInterface' => __DIR__ . '/..' . '/twig/twig/lib/Twig/NodeOutputInterface.php',
         'Twig_NodeTraverser' => __DIR__ . '/..' . '/twig/twig/lib/Twig/NodeTraverser.php',
@@ -1039,11 +1043,11 @@ class ComposerStaticInitc8652957a277dc1464025db6ba78b7f0
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitc8652957a277dc1464025db6ba78b7f0::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitc8652957a277dc1464025db6ba78b7f0::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInitc8652957a277dc1464025db6ba78b7f0::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitc8652957a277dc1464025db6ba78b7f0::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitc8652957a277dc1464025db6ba78b7f0::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit6da06b03918c707743e9e7a507c6ded9::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit6da06b03918c707743e9e7a507c6ded9::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInit6da06b03918c707743e9e7a507c6ded9::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit6da06b03918c707743e9e7a507c6ded9::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit6da06b03918c707743e9e7a507c6ded9::$classMap;
 
         }, null, ClassLoader::class);
     }

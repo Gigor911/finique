@@ -46,10 +46,6 @@
                 }
             }
         }
-        #social-links {
-            position: fixed;
-            z-index: 99;
-        }
         #logo {
             padding-top: 138px;
         }
@@ -62,9 +58,6 @@
         top: 0;
         z-index: 99;
         #logo {
-            display: none;
-        }
-        #social-links {
             display: none;
         }
         .fa.fa-bars {
@@ -112,36 +105,6 @@
         font-size: 20px;
         font-weight: 300;
         line-height: 1;
-    }
-}
-
-#social-links {
-    margin: 0;
-    display: block;
-    position: absolute;
-    right: 40px;
-    top: 20px;
-    li {
-        list-style: none;
-        display: inline-block;
-    }
-    a {
-        display: block;
-        width: 30px;
-        height: 30px;
-        background-size: contain;
-        &.fb-link {
-            background: url('../images/icon-fb.png') no-repeat center;
-        }
-        &.be-link {
-            background: url('../images/icon-be.png');
-        }
-        &.in-link {
-            background: url('../images/icon-in.png');
-        }
-        &.pi-link {
-            background: url('../images/icon-pi.png');
-        }
     }
 }
 

@@ -1,15 +1,7 @@
-{% extends 'partials/base_no_breadcrumbs.html.twig' %}
+{% extends 'partials/base.html.twig' %}
 
 {% block content %}
-    <div class="content-container category">
-        <ul>
-        {% for page in page.children.visible %}
-            <li>
-                <a href="{{ page.url }}">
-                    {{ page.title }}
-                </a>
-            </li>
-        {% endfor %}
-        </ul>
+    <div class="content-container category full-width">
+        {{ content }}
     </div>
 {% endblock %}
