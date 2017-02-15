@@ -30,6 +30,10 @@ en:
         LABEL: "Email"
         PLACEHOLDER: "Add your email"
 
+      PHONE:
+        LABEL: "Phone"
+        PLACEHOLDER: "Add your phone"
+
       MESSAGE:
         LABEL: "Message"
         PLACEHOLDER: "Add your message"
@@ -218,6 +222,10 @@ ru:
       EMAIL:
         LABEL: "Email"
         PLACEHOLDER: "Укажите email"
+
+      PHONE:
+        LABEL: "Телефон"
+        PLACEHOLDER: "Укажите телефо"
 
       MESSAGE:
         LABEL: "Сообщение"

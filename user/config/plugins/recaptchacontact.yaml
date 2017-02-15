@@ -2,6 +2,6 @@ enabled: true
 default_lang: ru
 disable_css: false
 inject_template: false
-grecaptcha_sitekey: 'your reCAPTCHA site key'
-grecaptcha_secret: 'your secret-g-recaptcha-key'
+grecaptcha_sitekey: 6LfSjRUUAAAAACdPPe8yixuPiuV7bodG851K1uRi
+grecaptcha_secret: 6LfSjRUUAAAAAAXgdsfllX3HY7F4jrEiYJ8M2h4D
 grecaptcha_callback: false

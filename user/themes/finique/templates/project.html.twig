@@ -15,15 +15,6 @@
                 <a class="arrow-right" title="Go to: {{page.parent().children.nth( 0 ).title}}" href="{{page.parent().children.nth( 0 ).url}}"> next </a>
             {% endif %}
         </div>
-        <div class="right-50">
-            {{ page.content }}
-        </div>
-        <div class="clearfix"></div>
-        <div id="project-images" class="owl-carousel owl-theme">
-            {% for image in page.media.images %}
-                <img class="owl-lazy" data-src="{{ image.resize(1170).url }}">
-            {% endfor %}
-        </div>
-
+        {{ page.content }}
     </div>
 {% endblock %}

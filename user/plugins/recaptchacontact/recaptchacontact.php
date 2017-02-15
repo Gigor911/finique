@@ -182,6 +182,7 @@ class ReCaptchaContactPlugin extends Plugin
 
         $fields['name'] = htmlspecialchars($_POST['name']);
         $fields['email'] = htmlspecialchars($_POST['email']);
+        $fields['phone'] = htmlspecialchars($_POST['phone']);
         $fields['message'] = htmlspecialchars($_POST['message']);
 
         $this->grav['session']->form = $fields;
@@ -216,6 +217,7 @@ class ReCaptchaContactPlugin extends Plugin
 
         $name     = $form_data['name'];
         $email    = $form_data['email'];
+        $phone    = $form_data['phone'];
         $message  = $form_data['message'];
 
         $antispam = $form_data['antispam'];
@@ -227,7 +229,7 @@ class ReCaptchaContactPlugin extends Plugin
            $response=json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secretkey."&response=".$grecaptcha), true);
         }
 
-        return (empty($name) or empty($message) or empty($email) or $antispam or empty($grecaptcha) or $response['success']==false) ? false : true;
+        return (empty($name) or empty($message) or empty($email) or empty($phone) or $antispam or empty($grecaptcha) or $response['success']==false) ? false : true;
     }
 
     /**
@@ -242,6 +244,7 @@ class ReCaptchaContactPlugin extends Plugin
         $defaults = [
             'name'      => '',
             'email'     => '',
+            'phone'     => '',
             'message'   => '',
             'antispam'  => '',
             'g-recaptcha-response' => ''
@@ -252,6 +255,7 @@ class ReCaptchaContactPlugin extends Plugin
         return [
             'name'      => $data['name'],
             'email'     => filter_var($data['email'], FILTER_SANITIZE_EMAIL),
+            'phone'   => $data['phone'],
             'message'   => $data['message'],
             'antispam'  => $data['antispam'],
             'g-recaptcha-response' => $data['g-recaptcha-response']
@@ -271,6 +275,7 @@ class ReCaptchaContactPlugin extends Plugin
         $subject    = $this->overwriteConfigVariable('plugins.recaptchacontact.subject','RECAPTCHACONTACT.SUBJECT');
         $email_content = "Name: {$form['name']}\n";
         $email_content .= "Email: {$form['email']}\n\n";
+        $email_content .= "Phone: {$form['phone']}\n\n";
         $email_content .= "Message:\n{$form['message']}\n";
 
         $email_headers = "From: {$form['name']} <{$form['email']}>";

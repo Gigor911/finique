@@ -33,6 +33,7 @@ $(document).ready(function () {
     $(this).siblings('p').toggle(300);
   });
   $('#mobile-menu-toggle').click(function () {
+    $(this).toggleClass('active');
     $('.navigation.top').toggle(300);
   });
   // Interior toggle

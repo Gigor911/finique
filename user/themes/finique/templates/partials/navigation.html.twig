@@ -1,6 +1,9 @@
 {% block header %}
     <header id="header">
         <div class="mobile-toggle">
+            <div class="logo">
+                <a href="{{ base_url == '' ? '/' : base_url }}">Finique</a>
+            </div>
             <i id="mobile-menu-toggle" class="fa fa-bars"></i>
         </div>
         <div id="navbar">
@@ -8,6 +11,7 @@
             {% block header_navigation %}
                 <ul class="navigation top">
                     {% for page in pages.children.visible %}
+                        {% if page.url != '/' %}
                         {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
                         <li class="{{ current_page }}">
                             <a href="{{ page.url }}">
@@ -15,6 +19,7 @@
                                 {{ page.menu }}
                             </a>
                         </li>
+                        {% endif %}
                     {% endfor %}
                 </ul>
             {% endblock %}

@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 .content-container.project {
+    width: 100%;
     .project-title {
         text-align: center;
         position: relative;
@@ -52,7 +53,7 @@
         }
     }
     #project-images {
-        max-height: 650px;
+        max-height: calc(100vh - 120px);
         padding-bottom: 40px;
         overflow: hidden;
         @include respond(xs) {
@@ -62,7 +63,7 @@
             overflow: hidden;
         }
         .owl-item img {
-            max-height: 650px;
+            height: calc(100vh - 120px);
             width: auto;
             margin: 0 auto;
             @include respond(xs) {
@@ -73,6 +74,9 @@
             .owl-nav {
                 opacity: 1;
             }
+        }
+        p {
+            margin: 0;
         }
         .owl-nav {
             @include transitionAll;
@@ -93,23 +97,23 @@
         }
         .owl-prev {
             position: absolute;
-            left: 0;
+            left: 5%;
             width: 0;
             height: 0;
             border-top: 20px solid transparent;
             border-bottom: 20px solid transparent;
-            border-right: 20px solid $nav-bg-color;
+            border-right: 20px solid $carousel-arrow;
             background: none;
             padding: 0;
         }
         .owl-next {
             position: absolute;
-            right: 0;
+            right: 5%;
             width: 0;
             height: 0;
             border-top: 20px solid transparent;
             border-bottom: 20px solid transparent;
-            border-left: 20px solid $nav-bg-color;
+            border-left: 20px solid $carousel-arrow;
             background: none;
             padding: 0;
         }

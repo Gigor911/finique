@@ -1,7 +1,8 @@
 title: 'Finique Studio'
+default_lang: ru
 author:
-  name: 'Joe Bloggs'
-  email: joe@test.com
+  name: Игорь
+  email: gigor911@gmail.com
 taxonomies:
   - category
   - tag

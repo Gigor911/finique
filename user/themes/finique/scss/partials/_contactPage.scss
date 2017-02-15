@@ -1,0 +1,148 @@
+.contacts {
+    width: 90%;
+    h2 {
+        @include heading();
+        padding: 60px 0 20px 0;
+        float: left;
+    }
+    .left {
+        @include heading();
+        float: right;
+        padding-right: 0;
+    }
+    fieldset {
+        border: none;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+    }
+    .mdl-textfield {
+        position: relative;
+        font-size: 16px;
+        display: block;
+        box-sizing: border-box;
+        width: 300px;
+        max-width: 100%;
+        margin: 0;
+        padding: 20px 0;
+    }
+    .mdl-textfield__input {
+        border: none;
+        border-bottom: 1px solid rgba(0,0,0,.12);
+        display: block;
+        font-size: 16px;
+        font-family: "Helvetica","Arial",sans-serif;
+        margin: 0;
+        padding: 4px 0;
+        width: 100%;
+        background: 0 0;
+        text-align: left;
+        color: inherit;
+    }
+    .mdl-textfield__label {
+        bottom: 0;
+        color: rgba(0,0,0,.26);
+        font-size: 16px;
+        left: 0;
+        right: 0;
+        pointer-events: none;
+        position: absolute;
+        display: block;
+        top: 24px;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-align: left;
+    }
+    .mdl-textfield--floating-label .mdl-textfield__label {
+        transition-duration: .2s;
+        transition-timing-function: cubic-bezier(.4,0,.2,1);
+    }
+    .mdl-textfield.is-focused .mdl-textfield__input {
+        outline: none;
+    }
+    .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label {
+        color: rgb(158,158,158);
+        font-size: 12px;
+        top: 4px;
+        visibility: visible;
+    }
+    .mdl-textfield__label:after {
+        background-color: rgb(158,158,158);
+        bottom: 20px;
+        content: '';
+        height: 2px;
+        left: 45%;
+        position: absolute;
+        transition-duration: .2s;
+        transition-timing-function: cubic-bezier(.4,0,.2,1);
+        visibility: hidden;
+        width: 10px;
+    }
+    .mdl-textfield.is-focused .mdl-textfield__label:after {
+        left: 0;
+        visibility: visible;
+        width: 100%;
+    }
+    .recaptcha-submit {
+        margin-top: 15px;
+        button {
+            font-family: 'Open Sans', sans-serif;
+            border: none;
+            width: 300px;
+            font-weight: 300;
+            margin-bottom: 15px;
+            color: white;
+            text-align: center;
+            display: block;
+            padding: 15px;
+            background: $button-color;
+            text-decoration: none;
+            cursor: pointer;
+            @include transitionAll();
+            &:hover {
+                background: $button-color-hover;
+                color: $nav-hover-link-dark;
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    .recaptcha-form-container {
+        width: 304px;
+        float: right;
+    }
+    #map {
+        box-sizing: border-box;
+        width: calc(100% - 400px);
+        float: left;
+        height: 348px;
+        //border: 2px solid $nav-bg-color;
+    }
+    .addresses {
+        box-sizing: border-box;
+        width: calc(100% - 400px);
+        float: left;
+        padding-left: 0;
+        padding-bottom: 20px;
+        margin: 0;
+        list-style: none;
+        li {
+            font-size: 14px;
+            padding: 5px 5px 5px 0;
+            a {
+                @include transitionAll;
+                font-size: 14px;
+                text-decoration: none;
+                text-transform: lowercase;
+                color: black;
+                display: inline-block;
+                &:hover {
+                    color: $nav-bg-color;
+                }
+            }
+
+        }
+    }
+}

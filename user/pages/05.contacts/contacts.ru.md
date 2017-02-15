@@ -2,7 +2,7 @@
 title: Контакты
 recaptchacontact:
     enabled: '1'
-    recipient: ''
-    subject: ''
+    recipient: gigor911@gmail.com
+    subject: 'NEW CLIENT'
 ---
 

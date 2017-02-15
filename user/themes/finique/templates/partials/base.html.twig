@@ -9,21 +9,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
     <link rel="canonical" href="{{ page.url(true, true) }}" />
-
+    {#<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-blue.min.css" />#}
     {% block stylesheets %}
         {% do assets.addCss('theme://css/normalize.css', 102) %}
         {% do assets.addCss('theme://css/finique.css', 100) %}
         {% do assets.addCss('theme://css/font-awesome.min.css', 100) %}
     {% endblock %}
     {{ assets.css() }}
-
-
-
 {% endblock head %}
 </head>
 <body id="top" class="{{ page.header.body_classes }}">
     <div id="hellopreloader">
-        <div id="hellopreloader_preload"></div>
+        <div id="hellopreloader_preload"><span>FINIQUE STUDIO</span></div>
     </div>
     <div id="sb-site">
         {% include 'partials/navigation.html.twig' %}

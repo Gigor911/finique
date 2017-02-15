@@ -7,13 +7,13 @@ content:
 <h2>Архитектура</h2>
 
 <div class="row">
-    <div class="l-33" markdown="1">[![](architecture_01.jpg)](../arkhitecture/cottage-village)
-        <h3 class="project-title">COTTAGE VILLAGE</h3>
+    <div class="l-33" markdown="1">![](architecture_01.jpg)
+        <div class="mask"><h3><a href="/arkhitecture/cottage-village"><span>COTTAGE VILLAGE</span></a></h3></div>
     </div>
-    <div class="l-33" markdown="1">[![](architecture_02.jpg)](../arkhitecture/holiday-home)
-        <h3 class="project-title">HOLIDAY HOME</h3>
+    <div class="l-33" markdown="1">![](architecture_02.jpg)
+        <div class="mask"><h3><a href="/arkhitecture/holiday-home"><span>HOLIDAY HOME</span></a></h3></div>
     </div>
-    <div class="l-33" markdown="1">[![](architecture_03.jpg)](../arkhitecture/cottage-village-2)
-        <h3 class="project-title">COTTAGE VILLAGE 2</h3>
+    <div class="l-33" markdown="1">![](architecture_03.jpg)
+        <div class="mask"><h3><a href="/arkhitecture/cottage-village-2"><span>COTTAGE VILLAGE 2</span></a></h3></div>
     </div>
 </div>
