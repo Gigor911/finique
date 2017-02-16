@@ -1,14 +1,25 @@
 .contacts {
     width: 90%;
-    h2 {
+    h1, h2 {
         @include heading();
         padding: 60px 0 20px 0;
-        float: left;
+        @include respond(xs) {
+            padding: 30px 0 20px;
+        }
+    }
+    .right {
+        float: right;
+        @include respond(xs) {
+            float: none;
+        }
     }
     .left {
-        @include heading();
-        float: right;
-        padding-right: 0;
+        float: left;
+        width: calc(100% - 400px);
+        @include respond(xs) {
+            float: none;
+            width: 100%;
+        }
     }
     fieldset {
         border: none;
@@ -84,12 +95,35 @@
         visibility: visible;
         width: 100%;
     }
+    .mdl-textfield__error {
+        color: #d50000;
+        position: absolute;
+        font-size: 12px;
+        margin-top: 3px;
+        visibility: hidden;
+        display: block;
+    }
+    .mdl-textfield.is-invalid .mdl-textfield__error {
+        visibility: visible;
+    }
+    .mdl-textfield.is-invalid .mdl-textfield__input {
+        border-color: #d50000;
+        box-shadow: none;
+    }
+    .mdl-textfield--floating-label.is-invalid .mdl-textfield__label {
+        color: #d50000;
+        font-size: 12px;
+    }
+    .mdl-textfield.is-invalid .mdl-textfield__label:after {
+        background-color: #d50000;
+    }
     .recaptcha-submit {
         margin-top: 15px;
         button {
             font-family: 'Open Sans', sans-serif;
             border: none;
             width: 300px;
+            max-width: 100%;
             font-weight: 300;
             margin-bottom: 15px;
             color: white;
@@ -112,18 +146,18 @@
     .recaptcha-form-container {
         width: 304px;
         float: right;
+        @include respond(xs) {
+            float: none;
+            margin: 0 auto;
+        }
     }
     #map {
         box-sizing: border-box;
-        width: calc(100% - 400px);
-        float: left;
         height: 348px;
         //border: 2px solid $nav-bg-color;
     }
     .addresses {
         box-sizing: border-box;
-        width: calc(100% - 400px);
-        float: left;
         padding-left: 0;
         padding-bottom: 20px;
         margin: 0;

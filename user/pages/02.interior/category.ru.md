@@ -4,7 +4,10 @@ content:
     items: '@self.children'
 ---
 
-<h2><span id="interior-all">Интерьеры </span><span id="interior-live">Жилые </span><span id="interior-public">Общественные</span></h2>
+<h1>Интерьеры</h1>
+<span id="interior-live">Жилые </span>
+<span id="interior-public">Общественные</span>
+<div class="clearfix"></div>
 
 <div class="row live">
     <div class="l-33" markdown="1">![](9-interior.jpg)
@@ -49,7 +52,7 @@ content:
     <div class="l-33" markdown="1">![](16-interior.jpg)
         <div class="mask"><h3><a href="/interior/roof"><span>ROOF</span></a></h3></div>
     </div>
-    <div class="l-33">
+    <div class="l-33 placeholder-column">
         <div class="placeholder">&nbsp;</div>
     </div>
 </div>

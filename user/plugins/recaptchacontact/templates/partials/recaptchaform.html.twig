@@ -16,21 +16,25 @@
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                 <input id="name"  name="name" type="text" class="mdl-textfield__input" value="{{ recaptchacontact.session.name }}"/>
                 <label class="mdl-textfield__label" for="name" class="recaptcha-label">{{ recaptchacontact.fields.name.label ?:'RECAPTCHACONTACT.FIELDS.NAME.LABEL'|t }}</label>
+                <span class="mdl-textfield__error">Укажите имя</span>
             </div>
 
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                 <input id="email" name="email" type="text" class="mdl-textfield__input" value="{{ recaptchacontact.session.email }}"/>
                 <label class="mdl-textfield__label" for="email">{{ recaptchacontact.fields.email.label ?:'RECAPTCHACONTACT.FIELDS.EMAIL.LABEL'|t }}</label>
+                <span class="mdl-textfield__error">Укажите email</span>
             </div>
 
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                 <input id="phone" name="phone" type="text" class="mdl-textfield__input" value="{{ recaptchacontact.session.email }}"/>
                 <label class="mdl-textfield__label" for="phone">{{ recaptchacontact.fields.email.label ?:'RECAPTCHACONTACT.FIELDS.PHONE.LABEL'|t }}</label>
+                <span class="mdl-textfield__error">Укажите телефон</span>
             </div>
 
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                 <textarea class="mdl-textfield__input" id="message" name="message" rows="3">{{ recaptchacontact.session.message }}</textarea>
                 <label class="mdl-textfield__label" for="message">{{ recaptchacontact.fields.message.label ?:'RECAPTCHACONTACT.FIELDS.MESSAGE.LABEL'|t }}</label>
+                <span class="mdl-textfield__error">Укажите сообщение</span>
             </div>
 
             <div class="g-recaptcha" data-sitekey={{ recaptchacontact.grecaptcha_sitekey }}{% if recaptchacontact.grecaptcha_callback %} data-callback="{{ recaptchacontact.grecaptcha_callback }}"{% endif %}></div>

@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
     <link rel="canonical" href="{{ page.url(true, true) }}" />
-    {#<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-blue.min.css" />#}
     {% block stylesheets %}
         {% do assets.addCss('theme://css/normalize.css', 102) %}
         {% do assets.addCss('theme://css/finique.css', 100) %}
@@ -45,6 +44,6 @@
         {{ assets.js() }}
         {{ assets.js('bottom') }}
     {% endblock %}
-
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </body>
 </html>

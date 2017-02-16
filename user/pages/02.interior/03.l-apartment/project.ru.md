@@ -11,8 +11,6 @@ title: 'L - Apartment'
 
 ![](L_Apartment_GOSTI_03.jpg)
 
-![](L_Apartment_GOSTI_04.jpg)
-
 ![](L_Apartment_GOSTI_05.jpg)
 
 ![](L_Apartment_GOSTI_07.jpg)
@@ -35,7 +33,7 @@ title: 'L - Apartment'
 
 ![](L_Apartment_VAN_2.jpg)
 
-![](L_Apartment_VAN_4.jpg)
+![](L_Apartment_VAN_3.jpg)
 
 ![](L_Apartment_DETI_1.jpg)
 

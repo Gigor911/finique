@@ -4,7 +4,8 @@ content:
     items: '@self.children'
 ---
 
-<h2>Архитектура</h2>
+<h1>Архитектура</h1>
+<div class="clearfix"></div>
 
 <div class="row">
     <div class="l-33" markdown="1">![](architecture_01.jpg)

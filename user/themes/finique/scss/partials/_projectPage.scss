@@ -4,9 +4,21 @@
 }
 .content-container.project {
     width: 100%;
+    @include respond(mdDOWN) {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .project-description {
+        @include respond(lg) {
+            max-width: 90%;
+        }
+        margin: 0 auto 20px;
+    }
     .project-title {
         text-align: center;
         position: relative;
+        max-width: 90%;
+        margin: 0 auto;
         h1 {
             font-family: "Bebas Neue Bold", sans-serif;
             font-size: 48px;
@@ -51,20 +63,39 @@
             left: 0;
             transform: translateY(-50%);
         }
+        @include respond(xs) {
+            .arrow-right, .arrow-left {
+                opacity: 1;
+            }
+        }
+        @include respond(sm) {
+            .arrow-right, .arrow-left {
+                opacity: 1;
+            }
+        }
+        @include respond(md) {
+            .arrow-right, .arrow-left {
+                opacity: 1;
+            }
+        }
     }
     #project-images {
-        max-height: calc(100vh - 120px);
         padding-bottom: 40px;
         overflow: hidden;
         @include respond(xs) {
             max-height: none;
         }
+        @include respond(mdUP) {
+            max-height: calc(100vh - 120px);
+        }
         .owl-item {
             overflow: hidden;
         }
         .owl-item img {
-            height: calc(100vh - 120px);
-            width: auto;
+            @include respond(mdUP) {
+                height: calc(100vh - 120px);
+                width: auto;
+            }
             margin: 0 auto;
             @include respond(xs) {
                 max-width: 100%;
@@ -89,6 +120,10 @@
             }
         }
         .owl-prev, .owl-next {
+            display: none;
+            @include respond(mdUP) {
+                display: block;
+            }
             @include transitionAll;
             &:hover {
                 border-right-color: $nav-hover-link-dark;

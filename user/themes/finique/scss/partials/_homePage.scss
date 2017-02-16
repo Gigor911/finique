@@ -4,14 +4,23 @@
     margin: 0 auto;
     h2 {
         @include heading();
-        a {
-            text-decoration: none;
-            font-size: inherit;
-            font-weight: inherit;
-            font-family: inherit;
-            color: inherit;
-        }
+        float: left;
         padding: 60px 0 20px 5%;
+         &+p {
+             margin: 0;
+             a {
+                 float: left;
+                 padding-top: 60px;
+                 padding-left: 10px;
+                 font-family: "Open Sans", sans-serif;
+                 text-decoration: none;
+                 color: $header-home-color;
+                 opacity: 0.6;
+                 &:hover {
+                     opacity: 1;
+                 }
+            }
+         }
         @include respond(xs) {
             margin-bottom: 10px;
             margin-top: 50px;
@@ -53,9 +62,9 @@
         }
         .image-100, .image-50 {
             @include respond(xs) {
-                width: 100%!important;
-                height: auto!important;
-                margin-top: 0!important;
+                width: 100%;
+                height: auto;
+                margin-top: 0;
                 margin-right: 0;
                 margin-bottom: 2px;
 

@@ -216,19 +216,19 @@ ru:
 
     FIELDS:
       NAME:
-        LABEL: "Имя"
+        LABEL: "Имя*"
         PLACEHOLDER: "Укажите имя"
 
       EMAIL:
-        LABEL: "Email"
+        LABEL: "Email*"
         PLACEHOLDER: "Укажите email"
 
       PHONE:
-        LABEL: "Телефон"
+        LABEL: "Телефон*"
         PLACEHOLDER: "Укажите телефо"
 
       MESSAGE:
-        LABEL: "Сообщение"
+        LABEL: "Сообщение*"
         PLACEHOLDER: "Укажите сообщение"
 
       ANTISPAM:

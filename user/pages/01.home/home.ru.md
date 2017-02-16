@@ -2,7 +2,9 @@
 title: Finique
 ---
 
-<h2><a href="/interior">ИНТЕРЬЕРЫ</a></h2>
+<h2>ИНТЕРЬЕРЫ</h2>
+<a href="/interior">смотреть все</a>
+<div class="clearfix"></div>
 
 <div class="home-row">
     <div class="image-50" markdown="1">![](interior_01.jpg?resize=960)
@@ -29,7 +31,9 @@ title: Finique
     </div>
 </div>
 
-<h2><a href="/arkhitecture">АРХИТЕКТУРА</a></h2>
+<h2>АРХИТЕКТУРА</h2>
+<a href="/arkhitecture">смотреть все</a>
+<div class="clearfix"></div>
 
 <div class="home-row">
     <div class="image-100" markdown="1">![](architecture_01.jpg?resize=1920)
