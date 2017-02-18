@@ -4,6 +4,7 @@
     font-weight: normal;
     src: local('Bebas Neue Bold'), url('../fonts/Bebas.woff') format('woff');
 }
+@import "partials/normalize.css";
 @import "partials/general";
 @import "partials/owl";
 @import "partials/header";
