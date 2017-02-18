@@ -23,27 +23,31 @@ en:
 
     FIELDS:
       NAME:
-        LABEL: "Name"
+        LABEL: "Name*"
         PLACEHOLDER: "Add your name"
 
       EMAIL:
-        LABEL: "Email"
+        LABEL: "Email*"
         PLACEHOLDER: "Add your email"
 
-      PHONE:
-        LABEL: "Phone"
-        PLACEHOLDER: "Add your phone"
-
       MESSAGE:
-        LABEL: "Message"
+        LABEL: "Message*"
         PLACEHOLDER: "Add your message"
+
+      CITY:
+        LABEL: "City*"
+        PLACEHOLDER: "Add your city"
+
+      PHONE:
+        LABEL: "Phone*"
+        PLACEHOLDER: "Add your phone"
 
       ANTISPAM:
         LABEL: "Antispam"
         PLACEHOLDER: "Please leave this field empty for Antispam"
 
       SUBMIT:
-        LABEL: "Submit"
+        LABEL: "Send Message"
 
     MESSAGES:
       SUCCESS: "Thank You! Your message has been sent."
@@ -216,19 +220,15 @@ ru:
 
     FIELDS:
       NAME:
-        LABEL: "Имя*"
+        LABEL: "Имя"
         PLACEHOLDER: "Укажите имя"
 
       EMAIL:
-        LABEL: "Email*"
+        LABEL: "Email"
         PLACEHOLDER: "Укажите email"
 
-      PHONE:
-        LABEL: "Телефон*"
-        PLACEHOLDER: "Укажите телефо"
-
       MESSAGE:
-        LABEL: "Сообщение*"
+        LABEL: "Сообщение"
         PLACEHOLDER: "Укажите сообщение"
 
       ANTISPAM:

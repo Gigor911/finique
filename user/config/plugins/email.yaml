@@ -1,0 +1,15 @@
+enabled: true
+from: gigor911@gmail.com
+from_name: gigor911@gmail.com
+to: gigor911@gmail.com
+to_name: Игорь
+mailer:
+  engine: mail
+  smtp:
+    server: localhost
+    port: 25
+    encryption: none
+  sendmail:
+    bin: /usr/sbin/sendmail
+content_type: text/html
+debug: false

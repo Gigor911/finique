@@ -1,6 +1,6 @@
 <?php
 /**
- * reCAPTCHA Contact v2.1.0
+ * reCAPTCHA Contact v2.0.2
  *
  * This plugin adds contact form features for sending email with
  * google reCAPTCHA 2.0  validation.
@@ -8,10 +8,10 @@
  * Licensed under the MIT license, see LICENSE.
  *
  * @package     recaptchacontact
- * @version     2.1.0
+ * @version     2.0.1
  * @link        <https://github.com/aradianoff/recaptchacontact>
  * @author      aRadianOff - Inés Naya <inesnaya@aradianoff.com>
- * @copyright   2017, Inés Naya - aRadianOff
+ * @copyright   2015, Inés Naya - aRadianOff
  * @license     <http://opensource.org/licenses/MIT>        MIT
  */
 
@@ -167,11 +167,12 @@ class ReCaptchaContactPlugin extends Plugin
                 if (false === $this->sendEmail()) {
                     $this->setSubmissionMessage('fail', $message_fail);
                     $this->setSessionFields();
+
                 } else {
                     $this->setSubmissionMessage('success', $message_success);
+                    $this->grav->redirectLangSafe('/thank-you');
                 }
             }
-
             $this->grav->redirectLangSafe($uri->url());
         }
     }
@@ -183,6 +184,7 @@ class ReCaptchaContactPlugin extends Plugin
         $fields['name'] = htmlspecialchars($_POST['name']);
         $fields['email'] = htmlspecialchars($_POST['email']);
         $fields['phone'] = htmlspecialchars($_POST['phone']);
+        $fields['city'] = htmlspecialchars($_POST['city']);
         $fields['message'] = htmlspecialchars($_POST['message']);
 
         $this->grav['session']->form = $fields;
@@ -217,8 +219,9 @@ class ReCaptchaContactPlugin extends Plugin
 
         $name     = $form_data['name'];
         $email    = $form_data['email'];
-        $phone    = $form_data['phone'];
         $message  = $form_data['message'];
+        $city     = $form_data['city'];
+        $phone    = $form_data['phone'];
 
         $antispam = $form_data['antispam'];
 
@@ -229,7 +232,7 @@ class ReCaptchaContactPlugin extends Plugin
            $response=json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secretkey."&response=".$grecaptcha), true);
         }
 
-        return (empty($name) or empty($message) or empty($email) or empty($phone) or $antispam or empty($grecaptcha) or $response['success']==false) ? false : true;
+        return (empty($name) or empty($message) or empty($email) or empty($city) or empty($phone) or $antispam or empty($grecaptcha) or $response['success']==false) ? false : true;
     }
 
     /**
@@ -244,6 +247,7 @@ class ReCaptchaContactPlugin extends Plugin
         $defaults = [
             'name'      => '',
             'email'     => '',
+            'city'      => '',
             'phone'     => '',
             'message'   => '',
             'antispam'  => '',
@@ -255,8 +259,9 @@ class ReCaptchaContactPlugin extends Plugin
         return [
             'name'      => $data['name'],
             'email'     => filter_var($data['email'], FILTER_SANITIZE_EMAIL),
-            'phone'   => $data['phone'],
             'message'   => $data['message'],
+            'city'      => $data['city'],
+            'phone'     => $data['phone'],
             'antispam'  => $data['antispam'],
             'g-recaptcha-response' => $data['g-recaptcha-response']
         ];
@@ -274,21 +279,14 @@ class ReCaptchaContactPlugin extends Plugin
         $recipient  = $this->getEmailRecipient();
         $subject    = $this->overwriteConfigVariable('plugins.recaptchacontact.subject','RECAPTCHACONTACT.SUBJECT');
         $email_content = "Name: {$form['name']}\n";
-        $email_content .= "Email: {$form['email']}\n\n";
-        $email_content .= "Phone: {$form['phone']}\n\n";
+        $email_content .= "Email: {$form['email']}\n";
+        $email_content .= "Phone: {$form['phone']}\n";
+        $email_content .= "City: {$form['city']}\n";
         $email_content .= "Message:\n{$form['message']}\n";
 
         $email_headers = "From: {$form['name']} <{$form['email']}>";
 
-        if ($this->grav['config']->get('plugins.email.enabled')) {
-            $message = $this->grav['Email']->message($subject, $email_content, 'text/html')
-                ->setFrom($form['email'])
-                ->setTo($recipient);
-
-            return $this->grav['Email']->send($message);
-        } else {
-            return (mail($recipient, $subject, $email_content, $email_headers)) ? true : false;
-        }
+        return (mail($recipient, $subject, $email_content, $email_headers)) ? true : false;
     }
 
     protected function getEmailRecipient()

@@ -8,9 +8,9 @@ $(document).ready(function () {
       $('#header').removeClass("collapsed");
     }
   });
-  $('.collapsable h3').click(function () {
+  $('.collapsable h2').click(function () {
     $(this).parent().toggleClass('active');
-    $(this).siblings('p').toggle(300);
+    $(this).siblings('div').toggle(300);
   });
   $('#mobile-menu-toggle').click(function () {
     $(this).toggleClass('active');
@@ -37,26 +37,6 @@ $(document).ready(function () {
       $('.category').find('.public').show();
       $('.category').find('.live').hide();
       $(this).addClass('active');
-    }
-  });
-
-  $(".mdl-textfield__input").blur(function (){
-    if( !this.value ){
-      $(this).prop('required', true);
-      $(this).parent().addClass('is-invalid');
-    }
-  });
-  $(".recaptcha-submit button").click(function (e) {
-    $('.mdl-textfield__input').each(function() {
-      if ($(this).val() == "") {
-        $(this).parents(".mdl-textfield").children(".mdl-textfield__input").prop('required', true);
-        $(this).parents(".mdl-textfield").addClass('is-invalid');
-        e.preventDefault();
-      }
-    });
-    var response = grecaptcha.getResponse();
-    if (response.length == 0) {
-      e.preventDefault();
     }
   });
 

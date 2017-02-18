@@ -1,56 +1,65 @@
 {% if page.modular == true %}
-    {% set target_slug = page.parent.slug %}
+     {% set target_slug = page.parent.slug %}
 {% else %}
     {% set target_slug = page.slug %}
 {% endif %}
 
-<div class="recaptcha-form-container" id="contact-form"> {# Twig or Parsedown will render this template as raw HTML without this DIV. #}
+<div> {# Twig or Parsedown will render this template as raw HTML without this DIV. #}
     {% if recaptchacontact.message %}
         {% include 'partials/recaptcha_message.html.twig' with { 'message': recaptchacontact.message } %}
     {% endif %}
-    <form action="{{ target_slug }}" method="post" id="recaptchacontact" class="recaptcha-form">
+    <form action="{{ target_slug }}" method="post" id="recaptchacontact" class="recaptcha-form form-horizontal">
         <fieldset>
+            <h3>
+                <legend class="legend">{{ recaptchacontact.form_legend ?:'RECAPTCHACONTACT.FORM_LEGEND'|t }}</legend>
+            </h3>
+
             {# @todo: you can use to integrate with ajax response #}
             <div id="recaptchacontact-messages"></div>
 
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input id="name"  name="name" type="text" class="mdl-textfield__input" value="{{ recaptchacontact.session.name }}"/>
-                <label class="mdl-textfield__label" for="name" class="recaptcha-label">{{ recaptchacontact.fields.name.label ?:'RECAPTCHACONTACT.FIELDS.NAME.LABEL'|t }}</label>
-                <span class="mdl-textfield__error">Укажите имя</span>
+                <label class="mdl-textfield__label" for="name">{{ recaptchacontact.fields.name.label ?:'RECAPTCHACONTACT.FIELDS.NAME.LABEL'|t }}</label>
+                <input class="mdl-textfield__input" id="name" name="name" type="text">
+                <span class="mdl-textfield__error">Check your name</span>
             </div>
 
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input id="email" name="email" type="text" class="mdl-textfield__input" value="{{ recaptchacontact.session.email }}"/>
                 <label class="mdl-textfield__label" for="email">{{ recaptchacontact.fields.email.label ?:'RECAPTCHACONTACT.FIELDS.EMAIL.LABEL'|t }}</label>
-                <span class="mdl-textfield__error">Укажите email</span>
+                <input class="mdl-textfield__input" id="email" name="email" type="email"/>
+                <span class="mdl-textfield__error">Check your email</span>
             </div>
 
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input id="phone" name="phone" type="text" class="mdl-textfield__input" value="{{ recaptchacontact.session.email }}"/>
+                <label class="mdl-textfield__label" for="city">{{ recaptchacontact.fields.email.label ?:'RECAPTCHACONTACT.FIELDS.CITY.LABEL'|t }}</label>
+                <input class="mdl-textfield__input" id="city" name="city" type="text"/>
+                <span class="mdl-textfield__error">City is required</span>
+            </div>
+
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                 <label class="mdl-textfield__label" for="phone">{{ recaptchacontact.fields.email.label ?:'RECAPTCHACONTACT.FIELDS.PHONE.LABEL'|t }}</label>
-                <span class="mdl-textfield__error">Укажите телефон</span>
+                <input class="mdl-textfield__input" id="phone" name="phone" type="text"/>
+                <span class="mdl-textfield__error">Phone is required</span>
             </div>
 
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <textarea class="mdl-textfield__input" id="message" name="message" rows="3">{{ recaptchacontact.session.message }}</textarea>
                 <label class="mdl-textfield__label" for="message">{{ recaptchacontact.fields.message.label ?:'RECAPTCHACONTACT.FIELDS.MESSAGE.LABEL'|t }}</label>
-                <span class="mdl-textfield__error">Укажите сообщение</span>
+                <textarea class="mdl-textfield__input" id="message" name="message" rows="3"></textarea>
+                <span class="mdl-textfield__error">Message is requred</span>
             </div>
 
-            <div class="g-recaptcha" data-sitekey={{ recaptchacontact.grecaptcha_sitekey }}{% if recaptchacontact.grecaptcha_callback %} data-callback="{{ recaptchacontact.grecaptcha_callback }}"{% endif %}></div>
+            <div class="g-recaptcha mdl-textfield mdl-js-textfield" data-sitekey={{ recaptchacontact.grecaptcha_sitekey }}></div>
 
             <div class="recaptcha-hidden form-group antispam-div">
                 <label class="control-label" for="antispam">{{ 'RECAPTCHACONTACT.FIELDS.ANTISPAM.LABEL'|t }}</label>
                 <input id="antispam" name="antispam" type="text" placeholder="{{ 'RECAPTCHACONTACT.FIELDS.ANTISPAM.PLACEHOLDER'|t }}" class="form-control" />
             </div>
 
-            <div class="recaptcha-submit">
-                <button type="submit" class="recaptcha-submit-button button">{{ recaptchacontact.fields.submit.label ?:'RECAPTCHACONTACT.FIELDS.SUBMIT.LABEL'|t }}</button>
+            <div class="recaptcha-submit form-group">
+                <div class="text-right">
+                    <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">{{ recaptchacontact.fields.submit.label ?:'RECAPTCHACONTACT.FIELDS.SUBMIT.LABEL'|t }}</button>
+                </div>
             </div>
         </fieldset>
     </form>
-    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl={{ grav.language.getActive ?: recaptchacontact.default_lang }}" defer></script>
-    {% if recaptchacontact.message %}
-        {% include 'partials/recaptcha_js.html.twig' %}
-    {% endif %}
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl={{ grav.language.getActive ?: recaptchacontact.default_lang }}" async></script>
 </div>
