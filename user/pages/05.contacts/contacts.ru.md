@@ -1,62 +1,66 @@
 ---
 title: Контакты
-
 form:
+
     name: contact
     
     fields:
-    
-        -   name: name
+        -
+            name: name
             label: Имя
             placeholder: 'Введите имя'
             autocomplete: 'on'
             type: text
             validate:
                 required: true
-                
-        -   name: email
+        -
+            name: email
             label: Email
             placeholder: 'Введите email'
             type: email
             validate:
                 required: true
-                
-        -   name: phone
+        -
+            name: phone
             label: Телефон
             placeholder: 'Введите телефон'
             type: text
             validate:
                 required: true
-                
-        -   name: message
+        -
+            name: message
             label: Сообщение
             placeholder: 'Введите сообщение'
             type: textarea
             validate:
                 required: true
-                
-        -   name: g-recaptcha-response
+        -
+            name: g-recaptcha-response
             label: Captcha
             type: captcha
+            recatpcha_site_key: 6LfSjRUUAAAAACdPPe8yixuPiuV7bodG851K1uRi
             recaptcha_not_validated: 'Captcha not valid!'
             validate:
                 required: true
     buttons:
-    
-        -   type: submit
+        -
+            type: submit
             value: Submit
     process:
-    
-        -   email:
-                subject: '[Site Contact Form] {{ form.value.name|e }}'
+        - 
+            captcha:
+                recaptcha_secret: 6LfSjRUUAAAAAAXgdsfllX3HY7F4jrEiYJ8M2h4D
+        -
+            email:
+                subject: '[Форма с сайта] {{ form.value.name|e }}'
                 body: '{% include ''forms/data.html.twig'' %}'
-                
-        -   save:
+        -
+            save:
                 fileprefix: contact-
                 dateformat: Ymd-His-u
                 extension: txt
                 body: '{% include ''forms/data.txt.twig'' %}'
-                
-        -   message: 'Thank you for getting in touch!'
+        -
+            message: 'Спасибо, что связались с нами. Мы постараемся ответить в ближайшее время.'
 ---
 
