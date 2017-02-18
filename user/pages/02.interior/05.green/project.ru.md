@@ -1,6 +1,12 @@
 ---
 title: Green
 ---
+<div class="project-description">
+<p>год: 2014</p>
+<p>локация: г. Киев</p>
+<p>площадь: 149,8 м2</p>
+<p>назначение: интерьер квартиры</p>
+</div>
 
 <div class="clearfix"></div>
 <div id="project-images" class="owl-carousel owl-theme" markdown="1">

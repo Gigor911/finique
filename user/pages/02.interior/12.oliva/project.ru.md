@@ -1,6 +1,12 @@
 ---
 title: OLIVA
 ---
+<div class="project-description">
+<p>год: 2016</p>
+<p>локация: г. Одесса, ЖК "Девятая жемчужина"</p>
+<p>площадь: 56 м2</p>
+<p>назначение: интерьер квартиры</p>
+</div>
 
 <div class="clearfix"></div>
 <div id="project-images" class="owl-carousel owl-theme" markdown="1">

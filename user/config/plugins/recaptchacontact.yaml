@@ -1,4 +1,4 @@
-enabled: true
+enabled: false
 default_lang: en
 disable_css: false
 inject_template: false

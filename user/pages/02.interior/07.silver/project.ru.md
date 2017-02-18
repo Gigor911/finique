@@ -1,6 +1,12 @@
 ---
 title: SILVER
 ---
+<div class="project-description">
+<p>год: 2016</p>
+<p>локация: г. Киев</p>
+<p>площадь: 150 м2</p>
+<p>назначение: интерьер двухуровневой квартиры</p>
+</div>
 
 <div class="clearfix"></div>
 <div id="project-images" class="owl-carousel owl-theme" markdown="1">

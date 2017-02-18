@@ -2,6 +2,12 @@
 title: 'Cottage Village 2'
 ---
 
+<div class="project-description">
+<p>год: 2016</p>
+<p>локация: пос. Зеленый Бор</p>
+<p>назначение: коттеджный городок</p>
+</div>
+
 <div class="clearfix"></div>
 <div id="project-images" class="owl-carousel owl-theme" markdown="1">
 

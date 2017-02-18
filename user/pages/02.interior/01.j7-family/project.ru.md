@@ -2,6 +2,12 @@
 title: 'J7 Family'
 ---
 
+<div class="project-description">
+<p>год: 2016</p>
+<p>локация: г. Ирпень</p>
+<p>площадь: 148 м2</p>
+<p>назначение: интерьер таунхауса</p>
+</div>
 <div class="clearfix"></div>
 <div id="project-images" class="owl-carousel owl-theme" markdown="1">
 

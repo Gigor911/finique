@@ -2,7 +2,12 @@
 title: SMS
 ---
 
-<div class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar est justo, ut ultricies ex pulvinar quis. Mauris ultrices felis sit amet est mollis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis aliquam porta dui, sit amet hendrerit felis volutpat a. Maecenas dignissim scelerisque dui ut luctus.</div>
+<div class="project-description">
+<p>год: 2016</p>
+<p>локация: г. Киев</p>
+<p>площадь: 48 м2</p>
+<p>назначение: интерьер апартаментов для оренды</p>
+</div>
 
 <div class="clearfix"></div>
 <div id="project-images" class="owl-carousel owl-theme" markdown="1">

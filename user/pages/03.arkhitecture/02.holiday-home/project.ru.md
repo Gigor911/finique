@@ -2,6 +2,13 @@
 title: 'Holiday Home'
 ---
 
+<div class="project-description">
+<p>год: 2015</p>
+<p>локация: Херсонская обл.</p>
+<p>площадь: 114 м2 </p>
+<p>назначение: коттедж</p>
+</div>
+
 <div class="clearfix"></div>
 <div id="project-images" class="owl-carousel owl-theme" markdown="1">
 

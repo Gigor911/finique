@@ -1,6 +1,12 @@
 ---
 title: L-Office
 ---
+<div class="project-description">
+<p>год: 2015</p>
+<p>локация: г. Киев</p>
+<p>площадь: 55,75 м2</p>
+<p>назначение: интерьер квартиры</p>
+</div>
 
 <div class="clearfix"></div>
 <div id="project-images" class="owl-carousel owl-theme" markdown="1">
