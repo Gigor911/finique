@@ -1,5 +1,8 @@
 ---
 title: Finique
+metadata:
+    keywords: 'дизайн квартир, архитектура, интерьер'
+    description: 'Дизайн студия Finique, разработка дизайна интерьера квартир и коттеджей. Разработка архитектурных решений. Разработка полного комплекта документации.'
 ---
 
 <h2>ИНТЕРЬЕРЫ</h2>
@@ -32,19 +35,19 @@ title: Finique
 </div>
 
 <h2>АРХИТЕКТУРА</h2>
-<a href="/arkhitecture">смотреть все</a>
+<a href="/architecture">смотреть все</a>
 <div class="clearfix"></div>
 
 <div class="home-row">
     <div class="image-100" markdown="1">![](architecture_01.jpg)
-        <div class="mask"><h3><a href="/arkhitecture/cottage-village"><span>COTTAGE VILLAGE</span></a></h3></div>
+        <div class="mask"><h3><a href="/architecture/cottage-village"><span>COTTAGE VILLAGE</span></a></h3></div>
     </div>
 </div>
 <div class="home-row">
     <div class="image-50" markdown="1">![](architecture_02.jpg)
-        <div class="mask"><h3><a href="/arkhitecture/holiday-home"><span>HOLIDAY HOME</span></a></h3></div>
+        <div class="mask"><h3><a href="/architecture/holiday-home"><span>HOLIDAY HOME</span></a></h3></div>
     </div>
     <div class="image-50" markdown="1">![](architecture_03.jpg)
-        <div class="mask"><h3><a href="/arkhitecture/cottage-village-2"><span>COTTAGE VILLAGE 2</span></a></h3></div>
+        <div class="mask"><h3><a href="/architecture/cottage-village-2"><span>COTTAGE VILLAGE 2</span></a></h3></div>
     </div>
 </div>

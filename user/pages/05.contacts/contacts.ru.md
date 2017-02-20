@@ -1,9 +1,9 @@
 ---
 title: Контакты
+metadata:
+    description: 'Свяжитесь с нами. Здесь вы найдете все наши контактные данные и способы связи.'
 form:
-
     name: contact
-    
     fields:
         -
             name: name
@@ -47,7 +47,7 @@ form:
             type: submit
             value: Submit
     process:
-        - 
+        -
             captcha:
                 recaptcha_secret: 6LfSjRUUAAAAAAXgdsfllX3HY7F4jrEiYJ8M2h4D
         -

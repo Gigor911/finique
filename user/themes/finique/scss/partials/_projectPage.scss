@@ -10,9 +10,14 @@
     }
     .project-description {
         @include respond(lg) {
-            max-width: 90%;
+            max-width: 50%;
+            padding-left: 50%;
+            margin-top: -30px;
         }
         margin: 0 auto 20px;
+        p {
+            margin: 3px;
+        }
     }
     .project-title {
         text-align: center;
