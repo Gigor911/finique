@@ -8,9 +8,9 @@ $(document).ready(function () {
       $('#header').removeClass("collapsed");
     }
   });
-  $('.collapsable h2').click(function () {
-    $(this).parent().toggleClass('active');
-    $(this).siblings('div').toggle(300);
+  $('.expandable').click(function () {
+    $(this).toggleClass('active');
+    $(this).next('ul').toggle(300);
   });
   $('#mobile-menu-toggle').click(function () {
     $(this).toggleClass('active');

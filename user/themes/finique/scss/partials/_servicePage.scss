@@ -16,16 +16,48 @@
     .collapsable {
         overflow: hidden;
         box-sizing: border-box;
-        padding: 0px;
+        padding: 0;
         margin-bottom: 40px;
+        width: 50%;
+        float: left;
+        &:nth-child(1) {
+            padding-right: 1%;
+        }
+        &:nth-child(2) {
+            padding-left: 1%;
+        }
+        @include respond(mdDOWN) {
+            width: 100%;
+            &:nth-child(1) {
+                padding-right: 0;
+            }
+            &:nth-child(2) {
+                padding-left: 0;
+            }
+        }
         h2 {
             color: rgba(0,0,0,0.6);
             margin: 0;
-            padding: 5px;
-            background: rgba(0, 0, 0, 0.1);
-            cursor: pointer;
             position: relative;
-            font-size: 20px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .expandable {
+            @include transitionAll();
+            position: relative;
+            cursor: pointer;
+            padding-right: 60px;
+            @include respond(mdDOWN) {
+                padding-right: 20px;
+            }
+            &:hover {
+                color: rgba(0,0,0,0.8)
+            }
+            &.active {
+                &:after {
+                    transform: rotate(180deg);
+                }
+            }
             &:after {
                 @include transitionAll();
                 content: ' ';
@@ -35,26 +67,37 @@
                 height: 0;
                 border-style: solid;
                 border-width: 10px 10px 0 10px;
-                border-color:$carousel-arrow transparent transparent transparent;
+                border-color: rgba(0,0,0,0.2) transparent transparent transparent;
                 background: none;
                 padding: 0;
-                top: 10px;
-                right: 10px;
+                top: 40%;
+                right: 50px;
+                @include respond(mdDOWN) {
+                    right: 0;
+                }
             }
         }
-        div {
+        h3 + ul, h4 + ul {
             display: none;
+        }
+        div {
             * {
                 color: rgba(0,0,0,0.6)
             }
             h3 {
-                font-size: 16px;
+                font-size: 14px;
+                font-weight: 500;
+            }
+            h4 {
+                font-size: 14px;
+                font-weight: 500;
             }
             b {
                 font-size: 14px;
             }
             p {
-                margin: 0 5px;
+                margin: 0;
+                font-size: 14px;
             }
         }
         &.active {
