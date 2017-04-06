@@ -1,5 +1,5 @@
 ---
-title: Контакты
+title: 'Форма с картой'
 metadata:
     description: 'Свяжитесь с нами. Здесь вы найдете все наши контактные данные и способы связи.'
 form:
@@ -34,22 +34,11 @@ form:
             type: textarea
             validate:
                 required: true
-        -
-            name: g-recaptcha-response
-            label: Captcha
-            type: captcha
-            recatpcha_site_key: 6LfSjRUUAAAAACdPPe8yixuPiuV7bodG851K1uRi
-            recaptcha_not_validated: 'Captcha not valid!'
-            validate:
-                required: true
     buttons:
         -
             type: submit
             value: Submit
     process:
-        -
-            captcha:
-                recaptcha_secret: 6LfSjRUUAAAAAAXgdsfllX3HY7F4jrEiYJ8M2h4D
         -
             email:
                 subject: '[Форма с сайта] {{ form.value.name|e }}'

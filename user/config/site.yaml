@@ -1,13 +1,10 @@
-title: 'Finique Studio -  дизайн интерьеров, архитектурные решения'
+title: ЛАБА
 default_lang: ru
 author:
-  name: Игорь
-  email: finique@outlook.com
+  email: trydid.ievgen@gmail.com
 taxonomies:
   - category
   - tag
-metadata:
-  description: 'Дизайн интерьеров квартир и коттеджей, архитектура коттеджей. Разработка архитектурного и дизайн проектов.'
 summary:
   enabled: true
   format: short
