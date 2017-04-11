@@ -1,6 +1,10 @@
 ---
-title: SILVER
+title: 'Дизайн интерьера пентхауса SILVER'
+metadata:
+    description: 'Создаем оригинальное пространство для комфортного жилья. Индивидуальный подход к каждому клиенту.'
+menu: SILVER
 ---
+
 <div class="project-description">
 <p>год: 2016</p>
 <p>локация: г. Киев</p>

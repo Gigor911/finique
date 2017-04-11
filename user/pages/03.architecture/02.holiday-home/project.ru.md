@@ -1,5 +1,7 @@
 ---
-title: 'Holiday Home'
+title: 'Архитектурный проект коттеджа Holiday Home'
+metadata:
+    description: 'Архитектурный проект индивидуального жилого дома Holiday Home под Херсоном'
 ---
 
 <div class="project-description">

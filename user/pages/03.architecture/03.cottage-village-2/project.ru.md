@@ -1,5 +1,7 @@
 ---
-title: 'Cottage Village 2'
+title: 'Архитектурный проект коттеджного городка Cottage Village 2'
+metadata:
+    description: 'Архитектурный проект коттеджного городка Cottage Village 2 под Киевом'
 ---
 
 <div class="project-description">

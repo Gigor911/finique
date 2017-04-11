@@ -1,6 +1,10 @@
 ---
-title: 'Light Loft'
+title: 'Дизайн интерьера пентхауса LIGHT LOFT'
+metadata:
+    description: 'Создаем оригинальное пространство для комфортного жилья. Индивидуальный подход к каждому клиенту.'
+menu: 'LIGHT LOFT'
 ---
+
 <div class="project-description">
 <p>год: 2015</p>
 <p>локация: г. Киев</p>

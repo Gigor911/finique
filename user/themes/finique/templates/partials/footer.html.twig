@@ -1,7 +1,7 @@
 <footer>
     <ul class="footer-left">
         {% for page in pages.children.visible %}
-            {%  if page.url != '/contacts' %}
+            {%  if page.url != '/contacts' and page.url != '/en/contacts'%}
             <li>
                 <a href="{{ page.url }}">
                     {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
@@ -15,7 +15,11 @@
     <div class="social-icons">
         {%  if page.url != '/contacts' %}
         <div class="contact-button">
-            <a class="contact-button-link" href="/contacts">Свяжитесь с нами</a>
+            {% if grav.language.getLanguage == 'en' %}
+                <a class="contact-button-link" href="/contacts">Contact us</a>
+            {% else %}
+                <a class="contact-button-link" href="/contacts">Свяжитесь с нами</a>
+            {% endif %}
         </div>
         {% endif %}
         <a href="https://www.facebook.com/finiquestudio/" target="_blank"><i class="fa fa-facebook-f"></i></a>
@@ -25,7 +29,11 @@
     </div>
 
     <ul class="footer-right">
-        <li>Киев, ул. Кудрявская, 8а</li>
+        {% if grav.language.getLanguage == 'en' %}
+            <li>Kiev, Kudravska str, 8а</li>
+        {% else %}
+            <li>Киев, ул. Кудрявская, 8а</li>
+        {% endif %}
         <li><a href="tel:+380967745002">+380967745002</a></li>
         <li><a href="tel:+380634721130">+380634721130</a></li>
         <li><a href="mailto:finique@outlook.com">finique@outlook.com</a></li>

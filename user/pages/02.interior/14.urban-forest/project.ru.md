@@ -1,6 +1,10 @@
 ---
-title: 'Urban Forest'
+title: 'Дизайн интерьера апартаментов Urban Forest'
+metadata:
+    description: 'Создаем оригинальное пространство для комфортного жилья. Индивидуальный подход к каждому клиенту.'
+menu: 'URBAN FOREST'
 ---
+
 <div class="project-description">
 <p>год: 2015</p>
 <p>локация: г. Киев</p>

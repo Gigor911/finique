@@ -1,10 +1,12 @@
 ---
-title: 'Cottage Village'
+title: 'Архитектурные проект коттеджного городка Cottage Village'
+metadata:
+    description: 'Архитектурный проект котеджного городка Cottage Village под Киевом.'
 ---
 
 <div class="project-description">
 <p>год: 2014</p>
-<p>локация: с. Белогородка</p>
+<p>location: с. Белогородка</p>
 <p>назначение: коттеджный городок</p>
 </div>
 

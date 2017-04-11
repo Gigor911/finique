@@ -1,5 +1,8 @@
 ---
-title: 'J7 Family'
+title: 'Дизайн интерьера загородного коттеджа J-7 FAMILY'
+metadata:
+    description: 'Создаем оригинальное пространство для комфортного жилья. Индивидуальный подход к каждому клиенту.'
+menu: 'J-7 FAMILY'
 ---
 
 <div class="project-description">

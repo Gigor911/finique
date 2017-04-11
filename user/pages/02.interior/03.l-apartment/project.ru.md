@@ -1,6 +1,10 @@
 ---
-title: 'L - Apartment'
+title: 'Дизайн интерьера апартаментов L-APARTMENT'
+metadata:
+    decription: 'Создаем оригинальное пространство для комфортного жилья. Индивидуальный подход к каждому клиенту.'
+menu: L-APARTMENT
 ---
+
 <div class="project-description">
 <p>год: 2016</p>
 <p>локация: г. Киев</p>
