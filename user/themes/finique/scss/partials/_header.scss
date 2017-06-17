@@ -1,6 +1,6 @@
 #header {
-    height: 250px;
-    background: $nav-bg-color;
+    height: 180px;
+    background: transparent;
     position: relative;
     @include transitionAll;
     .fa.fa-bars, .logo {
@@ -21,10 +21,10 @@
                 font-size: 16px;
                 text-decoration: none;
                 text-transform: lowercase;
-                color: black;
+                color: rgba(0,0,0, 0.4);
             }
             &:hover {
-                background: $nav-hover-link;
+                background: rgba(0,0,0, 0.1);
             }
         }
     }
@@ -36,13 +36,13 @@
             height: 78px;
             width: 100%;
             z-index: 99;
-            background: $nav-bg-color-darker;
+            background:rgba(255,255,255, 0.75);
             .navigation {
                 a {
-                    color: white;
+                    color: rgba(0,0,0, 0.4);
                 }
                 li:hover {
-                    background: $nav-hover-link-dark;
+                    background: rgba(0,0,0, 0.1);
                 }
             }
         }
@@ -86,7 +86,7 @@
                 a {
                     font-size: 30px;
                     line-height: 1;
-                    font-family: 'Bebas Neue Bold', sans-serif;
+                    font-family: "Catamaran", sans-serif;
                     color: white;
                     text-decoration: none;
                     letter-spacing: 4px;
@@ -116,18 +116,22 @@
     h1 {
         font-size: 58px;
         line-height: 1;
-        font-family: 'Bebas Neue Bold', sans-serif;
-        color: white;
+        font-family: "Catamaran", sans-serif;
+        font-weight: 500;
+        color: rgba(0,0,0, 0.4);
         text-decoration: none;
         letter-spacing: 4px;
         margin: 0;
     }
     span {
         display: block;
-        color: white;
-        font-size: 20px;
+        color: rgba(0,0,0, 0.4);
+        font-size: 16px;
         font-weight: 300;
         line-height: 1;
+    }
+    a {
+        text-decoration: none;
     }
 }
 

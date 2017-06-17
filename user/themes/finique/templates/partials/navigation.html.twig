@@ -2,7 +2,7 @@
     <header id="header">
         <div class="mobile-toggle">
             <div class="logo">
-                <a href="{{ base_url == '' ? '/' : base_url }}">Finique</a>
+                <a href="{{ base_url == '' ? '/' : base_url }}">S.O.D</a>
             </div>
             <i id="mobile-menu-toggle" class="fa fa-bars"></i>
         </div>
@@ -26,12 +26,10 @@
         </div>
         <div id="logo">
             {% if page.url != '/' and page.url != '/en' %}
-                <h1 class="logo-heading">FINIQUE STUDIO</h1>
-                <span>design  &  architecture</span>
+                <a href="{{ base_url == '' ? '/' : base_url }}"><h1 class="logo-heading">S.O.D</h1></a>
             {% else %}
-                <a href="{{ base_url == '' ? '/' : base_url }}"><img width="320px" src="{{ url('theme://images/logo.png') }}" alt="Finique Logo"></a>
+                <h1 class="logo-heading">S.O.D</h1>
             {% endif %}
-
         </div>
     </header>
 {% endblock %}

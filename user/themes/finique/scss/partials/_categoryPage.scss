@@ -1,7 +1,11 @@
 .category {
+    margin-top: -40px;
+    @include respond(xs) {
+        margin-top: 0;
+    }
     h1 {
         @include heading();
-        padding: 60px 0 20px 5%;
+        padding: 30px 0 20px 5%;
         float: left;
         & + p {
             margin: 0;
@@ -14,7 +18,7 @@
                 margin-bottom: 20px;
             }
             #interior-live, #interior-public {
-                padding-top: 60px;
+                padding-top: 30px;
                 padding-left: 10px;
                 color: $header-home-color;
                 float: left;
@@ -35,7 +39,7 @@
             }
         }
         @include respond(xs) {
-            padding: 30px 0 0;
+            padding: 30px 0;
             float: none;
             display: block;
             text-align: center;
@@ -151,7 +155,7 @@
                 background: $nav-bg-color;
             }
             h3 {
-                font-family: "Bebas Neue Bold", sans-serif;
+                font-family: "Catamaran", sans-serif;
                 text-align: center;
                 position: relative;
                 margin: 0;

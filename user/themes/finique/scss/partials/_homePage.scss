@@ -1,7 +1,10 @@
 .home-content-container {
     width: 100%;
     max-width: 1920px;
-    margin: 0 auto;
+    margin: -40px auto 0;
+    @include respond(xs) {
+        margin-top: 0;
+    }
     h2 {
         @include heading();
         float: left;
@@ -79,6 +82,10 @@
                 height: 100%;
                 background: $nav-hover-link;
                 @include transitionAll;
+                h3 span {
+                    color: rgba(0,0,0,.4);
+                }
+
                 @include respond(xs) {
                     opacity: 1;
                     bottom: 0;
@@ -128,7 +135,7 @@
                 background: $nav-bg-color;
             }
             h3 {
-                font-family: "Bebas Neue Bold", sans-serif;
+                font-family: "Catamaran", sans-serif;
                 text-align: center;
                 position: relative;
                 margin: 0;

@@ -8,7 +8,7 @@
             {% else %}
                 <a class="arrow-left" title="Go to: {{page.parent.children.nth( page.parent.children.count()- 1 ).title}}"  href="{{page.parent.children.nth( page.parent.children.count()- 1 ).url}}"> prev </a>
             {% endif %}
-            <h1>{{page.menu}}</h1>
+            <h2>{{page.menu}}</h2>
             {% if page.parent().children().prevSibling(page.path).url %}
                 <a class="arrow-right" title="Go to: {{ page.parent().children().prevSibling(page.path).title}}" href="{{ page.parent().children().prevSibling(page.path).url }}"> next </a>
             {% else %}

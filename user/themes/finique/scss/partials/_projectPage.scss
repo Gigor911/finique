@@ -17,6 +17,7 @@
         margin: 0 auto 20px;
         p {
             margin: 3px;
+            color: $project-home-color;
         }
     }
     .project-title {
@@ -24,9 +25,10 @@
         position: relative;
         max-width: 90%;
         margin: 0 auto;
-        h1 {
-            font-family: "Bebas Neue Bold", sans-serif;
-            font-size: 48px;
+        h2 {
+            font-family: "Catamaran", sans-serif;
+            font-size: 40px;
+            color: $header-home-color;
         }
         &:hover {
             .arrow-right, .arrow-left {

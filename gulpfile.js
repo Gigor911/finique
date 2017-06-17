@@ -11,7 +11,7 @@ var imagemin = require('gulp-imagemin');
 
 gulp.task('serve', function() {
   browserSync.init({
-    proxy: "finique.com:8888",
+    proxy: "finique.dev",
     files: ["./user/themes/finique/templates/**/*.twig","./user/themes/finique/images/**/*.*" ]
   });
   gulp.watch('./user/themes/finique/scss/**/*.scss', ['dev-sass']);

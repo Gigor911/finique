@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'Bebas Neue Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Bebas Neue Bold'), url('../fonts/Bebas.woff') format('woff');
-}
 @import "partials/normalize.css";
 @import "partials/general";
 @import "partials/owl";
@@ -15,3 +9,4 @@
 @import "partials/servicePage";
 @import "partials/categoryPage";
 @import "partials/contactPage";
+@import "partials/aboutUsPage";

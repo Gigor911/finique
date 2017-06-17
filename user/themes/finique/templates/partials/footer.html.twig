@@ -1,41 +1,32 @@
 <footer>
-    <ul class="footer-left">
-        {% for page in pages.children.visible %}
-            {%  if page.url != '/contacts' and page.url != '/en/contacts'%}
-            <li>
-                <a href="{{ page.url }}">
-                    {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
-                    {{ page.menu }}
-                </a>
-            </li>
+    <div class="center">
+        <div class="social-icons">
+            {%  if page.url != '/contacts' %}
+            <div class="contact-button">
+                {% if grav.language.getLanguage == 'en' %}
+                    <a class="contact-button-link" href="/contacts">Contact us</a>
+                {% else %}
+                    <a class="contact-button-link" href="/contacts">Свяжитесь с нами</a>
+                {% endif %}
+            </div>
             {% endif %}
-        {% endfor %}
-    </ul>
-
-    <div class="social-icons">
-        {%  if page.url != '/contacts' %}
-        <div class="contact-button">
-            {% if grav.language.getLanguage == 'en' %}
-                <a class="contact-button-link" href="/contacts">Contact us</a>
-            {% else %}
-                <a class="contact-button-link" href="/contacts">Свяжитесь с нами</a>
-            {% endif %}
+            <a href="https://www.facebook.com/finiquestudio/" target="_blank"><i class="fa fa-facebook-f"></i></a>
+            <a href="https://www.behance.net/finique"><i class="fa fa-behance" target="_blank"></i></a>
+            <a href="http://www.pictaram.com/user/finique_studio/3099509086" target="_blank"><i class="fa fa-instagram"></i></a>
         </div>
-        {% endif %}
-        <a href="https://www.facebook.com/finiquestudio/" target="_blank"><i class="fa fa-facebook-f"></i></a>
-        {#<a href="http://pinterest.com" target="_blank"><i class="fa fa-pinterest"></i></a>#}
-        <a href="https://www.behance.net/finique"><i class="fa fa-behance" target="_blank"></i></a>
-        <a href="http://www.pictaram.com/user/finique_studio/3099509086" target="_blank"><i class="fa fa-instagram"></i></a>
+        <div class="footer-address">
+            <p>
+                {% if grav.language.getLanguage == 'en' %}
+                    <span>Kiev, Kudravska str, 8а</span>
+                {% else %}
+                    <span>Киев, ул. Кудрявская, 8а</span>
+                {% endif %}
+                <span><a href="mailto:finique@outlook.com">finique@outlook.com</a></span>
+            </p>
+            <p>
+                <span><a href="tel:+380967745002">+380967745002</a></span>
+                <span><a href="tel:+380634721130">+380634721130</a></span>
+            </p>
+        </div>
     </div>
-
-    <ul class="footer-right">
-        {% if grav.language.getLanguage == 'en' %}
-            <li>Kiev, Kudravska str, 8а</li>
-        {% else %}
-            <li>Киев, ул. Кудрявская, 8а</li>
-        {% endif %}
-        <li><a href="tel:+380967745002">+380967745002</a></li>
-        <li><a href="tel:+380634721130">+380634721130</a></li>
-        <li><a href="mailto:finique@outlook.com">finique@outlook.com</a></li>
-    </ul>
 </footer>

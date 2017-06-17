@@ -1,5 +1,9 @@
 .contacts {
     width: 90%;
+    margin-top: -40px;
+    @include respond(xs) {
+        margin-top: 0;
+    }
     h1, h2 {
         @include heading();
         padding: 60px 0 20px 0;
@@ -106,6 +110,7 @@
         li {
             font-size: 14px;
             padding: 5px 5px 5px 0;
+            color: rgba(0,0,0,0.4);
             a {
                 @include transitionAll;
                 font-size: 14px;
@@ -113,6 +118,7 @@
                 text-transform: lowercase;
                 color: black;
                 display: inline-block;
+                color: rgba(0,0,0,0.4);
                 &:hover {
                     color: $nav-bg-color;
                 }
