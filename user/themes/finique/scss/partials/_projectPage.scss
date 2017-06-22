@@ -4,9 +4,13 @@
 }
 .content-container.project {
     width: 100%;
+    margin-top: 20px;
     @include respond(mdDOWN) {
         width: 90%;
         margin: 0 auto;
+    }
+    @include respond(xs) {
+        margin-top: 0;
     }
     .project-description {
         @include respond(lg) {
@@ -25,8 +29,10 @@
         position: relative;
         max-width: 90%;
         margin: 0 auto;
+        text-transform: uppercase;
         h2 {
-            font-family: "Catamaran", sans-serif;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
             font-size: 40px;
             color: $header-home-color;
         }

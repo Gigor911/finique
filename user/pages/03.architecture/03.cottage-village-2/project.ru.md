@@ -2,6 +2,7 @@
 title: 'Архитектурный проект коттеджного городка Cottage Village 2'
 metadata:
     description: 'Архитектурный проект коттеджного городка Cottage Village 2 под Киевом'
+menu: 'Cottage Village 2'
 ---
 
 <div class="project-description">
