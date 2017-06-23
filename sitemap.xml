@@ -6,76 +6,79 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<url>
-  <loc>http://iparkhomenko.xyz/</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/architecture</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/service</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/contacts</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior/sms</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior/j7-family</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior/udg</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior/green</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior/urban-forest</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior/l-apartment</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/architecture/cottage-village</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/architecture/holiday-home</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/architecture/cottage-village-2</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior/oliva</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior/b-b-studio</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior/silver</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior/anri</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior/gray</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior/l&amp;d</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior/light-loft</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior/grafit</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior/roof</loc>
-</url>
-<url>
-  <loc>http://iparkhomenko.xyz/interior/l-office</loc>
-</url>
+  <url>
+    <loc>http://www.sod.com.ua/</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/architecture</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/service</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/contacts</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/about-us</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior/sms</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior/j7-family</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior/udg</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior/green</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior/urban-forest</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior/l-apartment</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/architecture/cottage-village</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/architecture/holiday-home</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/architecture/cottage-village-2</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior/oliva</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior/b-b-studio</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior/silver</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior/anri</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior/gray</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior/l&amp;d</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior/light-loft</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior/grafit</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior/roof</loc>
+  </url>
+  <url>
+    <loc>http://www.sod.com.ua/interior/l-office</loc>
+  </url>
 </urlset>
