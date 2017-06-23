@@ -1,7 +1,7 @@
 enabled: true
-from: finique@outlook.com
+from: sod.inform@gmail.com
 from_name: 'Finique Studio'
-to: finique@outlook.com
+to: sod.inform@gmail.com
 to_name: 'Finique Studio'
 mailer:
   engine: mail
