@@ -73,11 +73,15 @@
         @include respond(xs) {
             .arrow-right, .arrow-left {
                 opacity: 1;
+                width: 12px;
+                height: 12px;
             }
         }
         @include respond(sm) {
             .arrow-right, .arrow-left {
                 opacity: 1;
+                width: 15px;
+                height: 15px;
             }
         }
         @include respond(md) {
