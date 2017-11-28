@@ -13,6 +13,9 @@
              display: inline-block;
              vertical-align: baseline;
              margin: 0;
+             @include respond(xs) {
+                 width: 100%;
+             }
              a {
                  display: inline-block;
                  padding-left: 10px;
@@ -22,6 +25,12 @@
                  opacity: 0.6;
                  &:hover {
                      opacity: 1;
+                 }
+                 @include respond(xs) {
+                     display: block;
+                     text-align: center;
+                     width: 50%;
+                     margin: 0 auto 10px;
                  }
             }
          }
