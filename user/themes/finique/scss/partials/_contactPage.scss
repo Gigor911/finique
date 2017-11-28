@@ -4,7 +4,7 @@
     @include respond(xs) {
         margin-top: 0;
     }
-    h1, h2 {
+    h1, h2, .heading {
         @include heading();
         padding: 0 0 20px 0;
         @include respond(xs) {

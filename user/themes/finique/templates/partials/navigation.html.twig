@@ -14,7 +14,7 @@
                         {% if page.url != '/' and page.url != '/en' %}
                         {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
                         <li class="{{ current_page }}">
-                            <a href="{{ page.url }}">
+                            <a href="{{ page.url }}" {{ page.url == '/about-us' ? 'rel="nofollow"' : ''}}>
                                 {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
                                 {{ page.menu }}
                             </a>
@@ -27,7 +27,7 @@
         </div>
         <div id="logo">
             {% if page.url != '/' and page.url != '/en' %}
-                <a href="{{ base_url == '' ? '/' : base_url }}"><h1 class="logo-heading">S.O.D</h1></a>
+                <a href="{{ base_url == '' ? '/' : base_url }}"><div class="logo-heading">S.O.D</div></a>
             {% else %}
                 <h1 class="logo-heading">S.O.D</h1>
             {% endif %}

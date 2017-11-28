@@ -2,6 +2,7 @@
 title: 'About Us'
 metadata:
     description: 'О нас, наш опыт разработки дизайн и архитектурных проектов от S.O.D. Работая с нашей студией у клиента появляется время и дизайн'
+    robots: noindex
 body_classes: about-us
 menu: 'About Us'
 ---

@@ -7,7 +7,7 @@ menu: Services
 ---
 
 <div class="collapsable">
-<h2>DESIGN PROJECT</h2>
+<h1>DESIGN PROJECT</h1>
 <br/>
 <div>
 <h3>PLANNING OF PREMISES WITH FURNITURE <span>(Up to 5 options)</span></h3>
@@ -25,7 +25,7 @@ menu: Services
 </div>
 </div>
 <div class="collapsable">
-<h2>ARCHITECTURAL PROJECT</h2>
+<h1>ARCHITECTURAL PROJECT</h1>
 <br/>
 <div>
 <h3 class="expandable">SKETCH PRODJECT</h3>

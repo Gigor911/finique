@@ -9,8 +9,10 @@ content:
 ---
 
 <h1>Интерьеры</h1>
-<span id="interior-live">Жилые </span>
-<span id="interior-public">Общественные</span>
+<span id="interior-public">Общественные </span>
+<span id="interior-live">Жилые</span>
+<span id="interior-all"> все</span>
+
 <div class="clearfix"></div>
 
 <div class="row live">

@@ -1,13 +1,6 @@
 .service {
     h1 {
         @include heading();
-        padding: 60px 0 20px;
-        @include respond(xs) {
-            padding: 30px 0 20px;
-            float: none;
-            display: block;
-            text-align: center;
-        }
     }
     width: 90%;
     margin: 0 auto;
@@ -76,28 +69,30 @@
             @include transitionAll();
             position: relative;
             cursor: pointer;
-            padding-right: 60px;
+            padding-bottom: 1px;
             @include respond(mdDOWN) {
                 padding-right: 20px;
             }
             &:hover {
                 color: rgba(0,0,0,1);
                 &:after {
-                    color: rgba(0,0,0,1);
+                    background: rgba(0,0,0,1);
                 }
             }
             &:after {
                 @include transitionAll();
                 font-family: "Montserrat Alternates", sans-serif;
-                content: '.';
-                font-size: 58px;
+                content: '';
+                width: 8px;
+                height: 8px;
+                background: rgba(0,0,0,.4);
+                border-radius: 50%;
                 line-height: 0;
                 display: block;
                 position: absolute;
                 padding: 0;
-                top: -12px;
+                top: 4px;
                 right: 50px;
-                color: rgba(0,0,0,.4);
                 @include respond(mdDOWN) {
                     right: 0;
                 }

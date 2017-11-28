@@ -9,9 +9,10 @@ content:
 ---
 
 <h1>Interiors</h1>
-<span id="interior-live">Live </span>
 <span id="interior-public">Public</span>
+<span id="interior-live">Live </span>
 <div class="clearfix"></div>
+<span id="interior-all"> all</span>
 
 <div class="row live">
     <div class="l-33" markdown="1">![](9-interior.jpg)

@@ -112,7 +112,12 @@
 #logo {
     padding-top: 30px;
     text-align: center;
-    h1 {
+    width: 200px;
+    margin: 0 auto;
+    @include respond(xs) {
+        width: auto;
+    }
+    .logo-heading {
         font-size: 58px;
         line-height: 1;
         font-family: "Montserrat Alternates", sans-serif;
