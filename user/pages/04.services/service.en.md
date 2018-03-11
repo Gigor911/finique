@@ -13,7 +13,7 @@ menu: Services
 <h3>PLANNING OF PREMISES WITH FURNITURE <span>(Up to 5 options)</span></h3>
 <h3>3D VISUALIZATION <span>(Up to 2 adjustments per room)</span></h3>
 <h3>ALBUM OF DRAWINGS</h3>
-<p>Cost of the project design from $ 30 / m2</p>
+<p>Cost of the project design from $ 40 / m2</p>
 <br/>
 <br/>
 <h3>AUTHOR'S SUPERVISION</h3>
