@@ -1,7 +1,7 @@
 enabled: true
-from: sod.inform@gmail.com
+from: sod.projects@gmail.com
 from_name: 'S.O.D architects'
-to: sod.inform@gmail.com
+to: sod.projects@gmail.com
 to_name: 'S.O.D architects'
 mailer:
   engine: smtp
