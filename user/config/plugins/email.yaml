@@ -4,13 +4,13 @@ from_name: 'S.O.D architects'
 to: sod.inform@gmail.com
 to_name: 'S.O.D architects'
 mailer:
-  engine: none
+  engine: smtp
   smtp:
-    server: localhost
-    port: 25
-    encryption: none
-    user: iparkhomenko
-    password: Igor9112578373
+    server: smtp.gmail.com
+    port: 465
+    encryption: ssl
+    user: sod.projects@gmail.com
+    password: stories_on_design
   sendmail:
     bin: /usr/sbin/sendmail
 content_type: text/html
