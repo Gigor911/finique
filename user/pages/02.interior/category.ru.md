@@ -22,19 +22,19 @@ content:
     <div class="l-33 public" markdown="1">![](2-interior.jpg)
         <div class="mask"><h3><a href="/interior/sous"><span>SOUS</span></a></h3></div>
     </div>
-    <div class="l-33 public" markdown="1">![](3-interior.jpg)
+    <div class="l-33 live" markdown="1">![](3-interior.jpg)
         <div class="mask"><h3><a href="/interior/fsp"><span>F.S.P</span></a></h3></div>
     </div>
-    <div class="l-33 public" markdown="1">![](4-interior.jpg)
+    <div class="l-33 live" markdown="1">![](4-interior.jpg)
         <div class="mask"><h3><a href="/interior/lps"><span>L.P.S</span></a></h3></div>
     </div>
-    <div class="l-33 public" markdown="1">![](5-interior.jpg)
+    <div class="l-33 live" markdown="1">![](5-interior.jpg)
         <div class="mask"><h3><a href="/interior/sms"><span>S.M.S</span></a></h3></div>
     </div>
-    <div class="l-33 public" markdown="1">![](6-interior.jpg)
+    <div class="l-33 live" markdown="1">![](6-interior.jpg)
         <div class="mask"><h3><a href="/interior/ffb"><span>F.F.B</span></a></h3></div>
     </div>
-    <div class="l-33 public" markdown="1">![](7-interior.jpg)
+    <div class="l-33 live" markdown="1">![](7-interior.jpg)
         <div class="mask"><h3><a href="/interior/echo"><span>ECHO</span></a></h3></div>
     </div>
     <div class="l-33 live" markdown="1">![](11-interior.jpg)
