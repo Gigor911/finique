@@ -8,7 +8,7 @@ menu: F.S.P
 <div class="project-description">
 <p>год: 2018</p>
 <p>локация: г. Киев</p>
-<p>площадь: 48 м2</p>
+<p>площадь: 42 м2</p>
 <p>назначение: интерьер апартаментов для оренды</p>
 </div>
 <div class="clearfix"></div>
