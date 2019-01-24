@@ -25,8 +25,6 @@ menu: L.P.S
 
 ![](LPS_5.jpg)
 
-![](LPS_6.jpg)
-
 ![](LPS_7.jpg)
 
 ![](LPS_8.jpg)
