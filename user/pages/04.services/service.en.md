@@ -13,14 +13,14 @@ menu: Services
 <h3>PLANNING OF PREMISES WITH FURNITURE <span>(Up to 5 options)</span></h3>
 <h3>3D VISUALIZATION <span>(Up to 2 adjustments per room)</span></h3>
 <h3>ALBUM OF DRAWINGS</h3>
-<p>Cost of the project design from $ 40 / m2</p>
+<p>Cost of the project design $ 40 / m2</p>
 <br/>
 <br/>
 <h3>AUTHOR'S SUPERVISION</h3>
 <p>Control over the performance of repair work with exits to the object</p>
 <p>Selection of materials for decoration of premises and furniture with exits to salons and specialized shops</p>
 <br/>
-<p>The cost of architectural supervision - from $ 5 / m2 per month</p>
+<p>The cost of architectural supervision - $ 5 / m2 per month</p>
 <br/>
 </div>
 </div>
@@ -36,7 +36,7 @@ menu: Services
 <li>fasades</li>
 <li>zoning of the site</li>
 </ul>
-<p>Cost of the sketch project from $ 10 / m2</p>
+<p>Cost of the sketch project $ 10 / m2</p>
 </div>
 </div>
 
